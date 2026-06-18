@@ -1,0 +1,505 @@
+
+   
+
+ 
+/*---------------------heder-------------------------------*/
+@media only screen and (max-width: 600px){
+    
+    .navbar-toggler{
+        display: inline-block;
+        vertical-align: top;
+        letter-spacing: 0;
+        padding: 20px 13px;
+        cursor: pointer;
+        border-radius: 46px;
+        border: 0px;
+        min-width: 111px;
+        width: auto;
+        text-align: center;
+        overflow: hidden;
+        text-decoration: none;
+        -webkit-font-smoothing: subpixel-antialiased;
+        -ms-touch-action: manipulation;
+        touch-action: manipulation;
+        background: linear-gradient(100.81deg, #991552 -49.04%, #FD8B33 153.49%);
+        z-index: 1;
+        font-family: 'Soleil Regular';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 18px;
+        align-items: center;
+        text-transform: capitalize;
+        color: #FFFFFF !important;
+    }
+  .devided-img:before{
+        content: "";
+        position: absolute;
+        background-image: url(../img/devided-icon.svg);
+        background-repeat: no-repeat;
+        height:14px;
+        width: 7px;
+        z-index: 99;
+        top:57px;
+        display:none;
+    }
+    .home-hero-content{
+        padding: 100px 36px 10px 5px;
+    }
+    
+    .home-hero-content {
+        padding: 18px 29px 0px 0px;
+        position: relative;
+        z-index: 1;
+        margin-bottom: 34px;
+        margin-top: 88px;
+    }
+
+
+    .nav-item{
+      margin: 12px 12px;
+    }
+    .bg-color{
+        background:#12394A;
+    }
+    .nav-header{
+        font-family: 'Soleil Regular';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 28px;
+        text-transform: capitalize;
+        color: #F9E2D0 !important;
+        text-align: center;
+        text-decoration:none;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        color: #F9E2D0 !important;
+    }
+    .navbar-nav {
+        display: flex;
+        flex-direction: column;
+        padding-left: 0px;
+        margin-bottom: 0;
+        list-style: none;
+        width: 100%;
+    }
+    .login-btn {
+       min-width:100%;
+    }
+    .cart-btn{
+        min-width: 100%;
+        margin-bottom: 20px;
+    }
+    .footer-email{
+        text-decoration-line: none;
+        text-transform: lowercase;
+    }
+    
+    #cart_items .dropdown-menu .show {
+        background: #12394A;
+    }
+    #cart_items .dropdown-cart {
+        min-width: 300px !important;
+        padding: 0 1rem;
+    }
+   
+}
+
+@media only screen and (max-width: 600px){
+    .get-ahead-page-bg {
+        background: url(../img/get-ahead-img-mo.png) no-repeat;
+        background-size: 100% auto;
+        background-position: center;
+        height:375px;
+    }
+    .texture-block-img {
+        background: url(../img/textureb-lock-img.jpg) no-repeat;
+        position: absolute;
+        top: 4rem;
+        height: 430px;
+        width: 100%;
+        background-size: contain;
+        left: 31%;
+        right: 46%;
+    }
+    .unlesh-div{
+        height: 438px;
+        max-height: 438px;
+    }
+    .unlesh-div .h2-desktop-white {
+        font-family: 'Soleil Regular';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 56px;
+        line-height: 71px;
+        text-align: center;
+        text-transform: capitalize;
+        color: #fff;
+        margin:26px;
+    }
+    
+   
+    
+    #cart_items .legend {
+        position: relative;
+        padding: 0px 6px;
+        top: 20px;
+        left: 1rem;
+        z-index: 99;
+        background: #12394A;
+        font-family: 'Soleil Regular';
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 18px;
+        text-transform: capitalize;
+        color: #FFFFFF;
+    }
+}
+@media only screen and (max-width: 600px){
+    .about-code-pen .convas {
+        max-height: 800px;
+        position: relative;
+        z-index: 1;
+        height: 700px;
+        width:100%;
+    }
+    .about-code-pen .top-hero-content {
+        position: absolute;
+        top: -40rem;
+    }
+    
+    .we-create-content {
+        padding: 28px 9px 33px 17px;
+    }
+    
+    
+    .create-creation-content h2 {
+        font-family: 'Soleil Regular';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 41px;
+        text-transform: capitalize;
+        color: #FFE023;
+        background-image: linear-gradient(100.81deg , #991552 -49.04%, #FD8B33 153.49%);
+        background-size: 100%;
+        background-repeat: repeat;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .create-creation-content {
+       padding: 40px 6px 25px 0px;
+    }
+    .steo-div-one h2{
+        font-family:'Soleil Regular';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 51px;
+        text-align: center;
+        text-transform: capitalize;
+        color: #A34722;
+    }
+    .steo-div-second h2{ 
+        font-family:'Soleil Regular';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 51px;
+        text-align: center;
+        text-transform: capitalize;
+        color: #F9E2D0;
+    }
+    .steo-div-three h2{
+        font-family:'Soleil Regular';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 51px;
+        text-align: center;
+        text-transform: capitalize;
+        color: #A34722;
+    }
+    
+}
+@media only screen and (max-width: 600px){
+    .why-choose {
+        padding: 40px 28px;
+        max-width: 800px;
+        width: 100%;
+        display: block;
+        margin: auto;
+    }
+    .digital-design {
+        background: #FFFFFF;
+        padding: 36px 16px;
+    }
+}
+@media only screen and (max-width: 600px){
+  .last-section .contact-us-bg {
+        background: url(../img/contact-form-bg-img-mo.png) no-repeat;
+        position: absolute;
+        top: 44.6rem;
+        height: 32px;
+        width: 100%;
+        background-size: cover;
+    }
+    .last-section{
+        margin-top: -113px;
+    }
+    .step-one img {
+        max-width: 228px;
+        margin: auto;
+        width: 228px;
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+    .step-second img {
+        max-width: 228px;
+        margin: auto;
+        width: 228px;
+        margin-top: 10px;
+    }
+    .step-three img {
+        max-width: 228px;
+        margin: auto;
+        width: 228px;
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+    .step-div-one h2{
+        font-family:'Soleil Regular';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 51px;
+        text-align: center;
+        text-transform: capitalize;
+        color: #A34722;
+    }
+    .step-div-second h2{ 
+        font-family:'Soleil Regular';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 51px;
+        text-align: center;
+        text-transform: capitalize;
+        color: #F9E2D0;
+    }
+    
+    .step-div-three h2{
+        font-family:'Soleil Regular';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 51px;
+        text-align: center;
+        text-transform: capitalize;
+        color: #A34722;
+    }
+}
+
+/*------------------------------payment-page----------------*/
+@media only screen and (max-width: 600px){
+    .product-box{
+        position:relative;
+        overflow: visible;
+    }
+    .input-box{
+        height: calc(3.625rem + 2px);
+        padding: .875rem .875rem;
+        font-size: 13px;
+        line-height: 1.5;
+        border: 1px solid rgba(249, 226, 208, 0.2);
+        box-sizing: border-box;
+        border-radius: 10px !important;
+        background: transparent;
+        color: #FFFFFF;
+        width: 100%;
+    }
+    .category-name {
+        position: absolute;
+        padding: 0px 6px;
+        top: -7px;
+        left: 29px;
+        z-index: 99;
+        background: #12394A;
+        font-family: 'Soleil Regular';
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 18px;
+        text-transform: capitalize;
+        color: #FFFFFF;
+    }
+    .product-name-price p{
+        font-family: 'Soleil Regular';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 28px;
+        display: flex;
+        align-items: center;
+        text-transform: capitalize;
+        color: #D18724;
+    }
+    .paymet-bg .container {
+        width: 100%;
+        padding-right: 0px;
+        padding-left: 0px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .account-menu-collec{
+        flex: 0 0 100%;
+        max-width: 100%;
+        width: 100%;
+        overflow-x: scroll;
+        padding-bottom: 10px;
+    }
+    .btn-account {
+        display: inline-block;
+        vertical-align: top;
+        letter-spacing: 0;
+        padding: 8px 8px;
+        cursor: pointer;
+        border-radius: 46px;
+        min-width: 151px;
+        width: auto;
+        text-align: center;
+        overflow: hidden;
+        text-decoration: none;
+        -webkit-font-smoothing: subpixel-antialiased;
+        -ms-touch-action: manipulation;
+        touch-action: manipulation;
+        border: 1px solid #12394A;
+        box-sizing: border-box;
+        z-index: 1;
+        font-family: 'Soleil Regular';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 18px;
+        align-items: center;
+        text-transform: capitalize;
+        color: #12394A !important;
+        margin-left:20px;
+  
+    }
+    .all-btn-account .active{
+        background: linear-gradient(100.81deg, #991552 -49.04%, #FD8B33 153.49%);
+        color: #FFFFFF !important;
+        border:0px;
+    }
+}
+@media only screen and (max-width: 600px){
+    
+   
+   
+}
+@media only screen and (max-width: 600px){
+    .contact-us-bg-two {
+        background: url(../img/contact-form-bg-img.png) no-repeat;
+        position: absolute;
+        bottom: 0.2rem;
+        height: 36px;
+        width: 100%;
+        background-size: cover;
+        display:block;
+    }
+}
+@media only screen and (max-width: 600px){
+ .regi-left-input-box .h3-desktop-black {
+        font-family: 'Soleil Regular';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 30px;
+        text-align: center;
+        text-transform: capitalize;
+        color: #12394A;
+        margin-top: 40px;
+
+    }
+.login-head .h3-desktop-black {
+        font-family: 'Soleil Regular';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 51px;
+        text-align: center;
+        text-transform: capitalize;
+        color: #12394A;
+    }
+}
+/*-----------------------------checkout-page------------------------------*/
+@media only screen and (max-width: 600px){
+    .pro-price {
+        font-family: 'Soleil Regular';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 28px;
+        text-transform: capitalize;
+        color: #FFFFFF;
+    }
+    .category-name{
+        font-family: 'Soleil Regular';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 18px;
+        text-transform: capitalize;
+        color: #D18724;
+    }
+    .category-name {
+        position: absolute;
+        padding: 0px 0px;
+        top: -7px;
+        left: 24px;
+        z-index: 99;
+        background: #12394A;
+        
+    }
+    .input-box {
+        height: calc(3.625rem + 2px);
+        padding: .875rem .875rem;
+        font-size: 13px;
+        line-height: 1.5;
+        border: 0px solid rgba(249, 226, 208, 0.2);
+        box-sizing: border-box;
+        border-radius: 10px !important;
+        background: transparent;
+        color: #FFFFFF;
+        width: 100%;
+    }
+    
+    .date-mo{
+        width:100%;
+    }
+    
+}
+/*--------------------------trems&condition--------------------------------*/
+@media only screen and (max-width: 600px){
+    .terms-content-head {
+        padding: 106px 13px 4px;
+        display: block;
+        margin: auto;
+        width: 100%;
+    }
+}
+
+/*---------------footer-bg-----------------------------*/
+@media only screen and (max-width: 600px){
+    .span_1_of_7 {
+        width: 100%;
+    }
+    section {
+        position: relative;
+        overflow: hidden;
+    }
+}

@@ -1,0 +1,739 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Ocean Blue Marketing</title>
+    <link rel="stylesheet" href="dist/css/bootstrap.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.theme.default.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Jost:wght@400;600&family=Rambla:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        .table-box thead th {
+            font-family: 'Helvetica Now Display';
+            font-style: normal;
+            font-weight: bold;
+            font-size: 25px;
+            line-height: 37px;
+            text-align: center;
+            letter-spacing: 0.09em;
+            text-transform: capitalize;
+            color: #1B2431;
+            vertical-align: middle;
+        }
+    </style>
+  </head>
+  <body>
+    <header class="fixed-top mt-lg-3">
+      <div class="container desktop d-none d-md-block d-lg-block bg-white">
+          <div class="row align-items-center">
+              <div class="col-lg-2 col-md-2 col-2">
+                  <a href="index.html"><img src="./img/black-logo.svg" class="img-fluid"></a>
+              </div>
+              <div class="col-lg-5 col-md-5 col-sm-5 col-5">
+                  <nav class="navbar navbar-expand-lg">
+                          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                              <ul class="navbar-nav">
+                              <li class="nav-item dropdown">
+                                  <a class="nav-link dropdown-toggle" aria-current="page"  href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Services</a>
+                                  <ul class="dropdown-menu dropdown-menu-cus " aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="seo.html">SEO</a></li>
+                                    <li><a class="dropdown-item" href="ppc.html">PPC</a></li>
+                                    <li><a class="dropdown-item" href="orm.html">ORM</a></li>
+                                    <li><a class="dropdown-item" href="web-design.html">Web Design & Development</a></li>
+                                    <li><a class="dropdown-item" href="social.html">Social Media</a></li>
+                                    <li><a class="dropdown-item" href="email.html">Email Marketing</a></li>
+                                  </ul>
+                              </li>
+                              <li class="nav-item">
+                                  <a class="nav-link" aria-current="page" href="aboutus.html">About Us</a>
+                              </li>
+                              <li class="nav-item">
+                                  <a class="nav-link" aria-current="page" href="contact.html">Contact Us</a>
+                              </li>
+                              <li class="nav-item">
+                                  <a class="nav-link" aria-current="page" href="faq.html">FAQ’s</a>
+                              </li>
+                              </ul>
+                          </div>
+                    </nav>
+              </div>
+              <div class="col-lg-5 col-md-5 col-sm-5 col-5">
+                <nav class="navbar navbar-expand-lg">
+                      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                          <ul class="navbar-nav">
+                          <li class="nav-item">
+                              <a class="nav-link" aria-current="page" href="login.html">Login</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link" aria-current="page" href="sign.html">Sign Up</a>
+                          </li>
+                          <li class="nav-item  dropdown">
+                              <a class="nav-link dropdown-toggle" aria-current="page" href="checkout.html" aria-current="page"  id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">My Cart</a>
+                              <ul class="dropdown-menu dropdown-cart " aria-labelledby="navbarDropdown">
+                                <div class="order-summary-cart cart-details">
+                                   <div class="order-summary-details">
+                                       <div class="order-div">
+                                           <p class="product-name">SEO - Platinum Package</p>
+                                           <small class="duration">1 Month</small>
+                                           <p class="pro-price">£689.00</p>
+                                       </div>
+                                       <div class="order-div">
+                                           <p class="product-name">SEO - Platinum Package</p>
+                                           <small class="duration">3 Month</small>
+                                           <p class="pro-price">£689.00</p>
+                                       </div>
+                                       <div class="order-div">
+                                           <p class="product-name">SEO - Platinum Package</p>
+                                           <small class="duration">6 Month</small>
+                                           <p class="pro-price">£689.00</p>
+                                       </div>
+                                       <div class="total-price-div d-none d-lg-block d-md-block">
+                                           <h5><span class="total-p">Total: </span><span class="total-price">£11,468.00</span></h5>
+                                       </div>
+                                       <div class="total-price-div d-block d-lg-none d-md-none">
+                                           <h5><span class="total-p">Amount Paid:  </span><span class="total-price">£11,468.00</span></h5>
+                                       </div>
+                                       <div class="cart-btn d-flex justify-content-around">
+                                           <a href="#" class="btn btn-tertiary ">Continue Shopping</a>
+                                           <a href="checkout.html" class="btn btn-tertiary-border ">Checkout</a>
+                                       </div>
+                                   </div>
+                                </div>
+                              </ul>
+                            </li>
+                          <li class="nav-item">
+                              <select>
+                                <option>$</option>
+                                <option>$</option>
+                                <option>$</option>
+                              </select>
+                          </li>
+                          </ul>
+                      </div>
+                </nav>
+            </div>
+          </div>
+      </div>
+      <div class="mobile d-block d-lg-none d-md-none">
+          <div class="mobile-head d-flex align-items-center justify-content-between">
+              <a href="index.html"><img src="./img/black-logo.svg" class="img-fluid"></a>
+              <img src="./img/mobilemenuopen.svg" class="inactive">
+          </div>
+          <div class="mobile-slide-menu" style="display: none;">
+              <div class="mobile-slide-head">
+                  <a href="index .html"><img src="./img/black-logo.svg" class="img-fluid" style="float: left;"></a>
+                  <img src="./img/mobilemenuclose.svg" class="menuactive">
+              </div>
+              <div id="webmobile-menu">
+                  <ul class="navbar-nav">
+                      <li class="nav-item border-bottom">
+                          <select class="form-select">
+                              <option value="">Select Currency (£) </option>
+                              <option value="">Select Currency (£) </option>
+                              <option value="">Select Currency (£) </option>
+                          </select>
+                      </li>
+                      <li class="nav-item border-bottom">
+                        <a class="nav-link" aria-current="page" href="aboutus.html">Services</a>
+                    </li>
+                      <li class="nav-item border-bottom">
+                          <a class="nav-link" aria-current="page" href="aboutus.html">About Us</a>
+                      </li>
+                      
+                      <li class="nav-item border-bottom">
+                          <a class="nav-link" aria-current="page" href="contactus.html">Contact Us</a>
+                      </li>
+                      <li class="nav-item border-bottom">
+                        <a class="nav-link" aria-current="page" href="faq.html">FAQS</a>
+                    </li>
+                    <li class="nav-item border-bottom">
+                        <a class="nav-link" aria-current="page" href="faq.html">Login</a>
+                    </li>
+                    <li class="nav-item border-bottom">
+                        <a class="nav-link" aria-current="page" href="faq.html">Sign up </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="checkout.html">My Cart </a>
+                    </li>
+                  </ul>
+                  
+              </div>
+          </div>
+      </div>
+  </header>
+  <section class="hero-top-home d-none d-lg-block d-md-block">
+      <img src="./img/home-hero-top.png" alt="img" class="img-fluid bg-image d-none ">
+      <div class="container">
+            <div class="row">
+                <div class="col-lg-7 col-md-7 col-sm-12 col-12">
+                    <div class="top-hero-content mb-5">
+                        <h2 class="h1-black" style="line-height: 95px;">the building blocks for any business starts here. </h2>
+                        <p class="mb-5">Gavida sed lectus pellentesque feugiat volutpat nullam.
+                        Faucibus ornare viverra habitasse pharetra, dignissim. Amet tortor dui 
+                        nisi, tristique turpis ac feugiat erat. Amet rhoncus.</p>
+                    
+                    <div class="bnt-and-a mb-5">
+                        <a href="#" class="btn btn-tertiary">view services</a>
+                        <a href="#" class="what-do">A Little about us</a>
+                    </div>
+                    <!--<div class="form-check form-switch">
+                      <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
+                      <label class="form-check-label" for="flexSwitchCheckDefault"></label>
+                    </div>-->
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-5 col-sm-12 col-12 home-video-top">
+                    <video class="home-video-1" id="home-video-1" heigth="600" loop="" muted="" autoplay="">
+                        <source src="./img/Video - Homepage.mp4" type="video/mp4">
+                      </video>
+                </div>
+            </div>
+      </div>
+  </section>
+  <section class="hero-top-page d-block d-lg-none d-md-none">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 p-mo-0">
+                <img src="./img/home-top-bg-mo.png" alt="img" class="img-fluid w-100">
+            </div>
+            <div class="col-12">
+                <div class="top-hero-content">
+                   <div class="top-head-mo">
+                        <h2 class="h1-black">the building blocks for any business starts here. </h2>
+                        <p>Gavida sed lectus pellentesque feugiat volutpat nullam. Faucibus ornare 
+                        viverra habitasse pharetra, dignissim. Amet tortor 
+                        dui nisi, tristique turpis ac feugiat erat. Amet rhoncus.</p>
+                   </div>
+                    <div class="bnt-and-a">
+                        <a href="#" class="btn btn-tertiary">view services</a>
+                        <a href="#" class="what-do">A Little about us</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+  <section class="explore-page pb-0">
+    <div class="container">
+          <div class="row">
+              <div class="col-lg-4 col-md-4 col-sm-12 col-12 pe-lg-0 p-mo-0">
+                  <img src="./img/explore-img.png" alt="img" class="img-fluid d-none d-lg-block d-md-block">
+                  <img src="./img/explore-img-mo.png" alt="img" class="img-fluid d-block d-lg-none d-md-none w-100">
+              </div>
+              <div class="col-lg-8 col-md-8 col-sm-12 col-12 ps-lg-0 bg-color order-1 order-lg-0 ">
+                  <div class="packages-content">
+                      <p class="p-tag">WHO ARE WE?</p>
+                      <h2 class="h2-black">explore a New wave in marketing with ocean blue </h2>
+                      <div class="border-devider mt-3"></div>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Justo, 
+                          feugiat laoreet vel, amet tristique dolor euismod sed diam. 
+                          Consectetur porttitor diam mattis commodo sed elementum, ultricies arcu. 
+                       </p>
+                       <a href="#" class="btn btn-tertiary">Read More</a>
+                  </div>
+              </div>
+          </div>
+    </div>
+</section>
+  <section class="servies-sec pb-0">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-9 col-md-9 col-sm-12 col-12 m-auto">
+                   <div class="text-center">
+                        <p class="p-servies">SERVICES</p>
+                        <h2 class="h2-black">We have a dedicated team to help you</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Dolor donec sit suspendisse euismod imperdiet.</p>
+                   </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   <section class="features-section pb-0"> 
+        <div class="feature-box">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-12 col-sm-12">
+                        <div class="fea-box text-center">
+                            <img src="./img/seo-icon.svg" alt="img" class="img-fluid mb-3">
+                            <div class="fea-content-box">
+                                <h5>Search Engine Optimisation (SEO)</h5>
+                                <p>  
+                                    Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit. Amet varius eget 
+                                    integer libero, nibh.
+                                </p>
+                           </div>
+                           <a href="#" class="btn btn-white">Read More</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-12 col-sm-12">
+                        <div class="fea-box text-center">
+                            <img src="./img/ppc-icon.svg" alt="img" class="img-fluid mb-3">
+                            <div class="fea-content-box">
+                                <h5>Pay-Per-Click (PPC) </h5>
+                                <p>  
+                                    Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit. Amet varius eget 
+                                    integer libero, nibh.
+                                </p>
+                           </div>
+                           <a href="#" class="btn btn-white">Read More</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-12 col-sm-12">
+                        <div class="fea-box text-center">
+                            <img src="./img/online-icon.svg" alt="img" class="img-fluid mb-3">
+                            <div class="fea-content-box">
+                                <h5>Online Reputation managment</h5>
+                                <p>  
+                                    Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit. Amet varius eget 
+                                    integer libero, nibh.
+                                </p>
+                           </div>
+                           <a href="#" class="btn btn-white">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container mt-lg-4">
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-12 col-sm-12">
+                        <div class="fea-box text-center">
+                            <img src="./img/pen-icon-3.svg" alt="img" class="img-fluid mb-3">
+                           <div class="fea-content-box">
+                                <h5>web design and web development  </h5>
+                                <p>  
+                                    Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit. Amet varius eget 
+                                    integer libero, nibh.
+                                </p>
+                           </div>
+                           <a href="#" class="btn btn-white">Read More</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-12 col-sm-12">
+                        <div class="fea-box text-center">
+                            <img src="./img/social-icon.svg" alt="img" class="img-fluid mb-3">
+                            <div class="fea-content-box">
+                                <h5>social media  </h5>
+                                <p>  
+                                    Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit. Amet varius eget 
+                                    integer libero, nibh.
+                                </p>
+                           </div>
+                           <a href="#" class="btn btn-white">Read More</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-12 col-sm-12">
+                        <div class="fea-box text-center">
+                            <img src="./img/email-icon-2.svg" alt="img" class="img-fluid mb-3">
+                            <div class="fea-content-box">
+                                <h5>email marketing</h5>
+                                <p>  
+                                    Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit. Amet varius eget 
+                                    integer libero, nibh.
+                                </p>
+                           </div>
+                           <a href="#" class="btn btn-white">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+  </section>
+  <section class="home-how-it-work pb-0 p-mo-0">
+        <div class="container p-mo-0">
+            <div class="how-video-2">
+                <video class="home-video-1 d-none d-md-block d-lg-block" loop="" muted="" autoplay="">
+                    <source src="./img/Video - Homepage 2.mp4" type="video/mp4">
+                  </video>
+                <!-- <img src="./img/home-how-work.png" alt="img" class="img-fluid d-none d-md-block d-lg-block"> -->
+                <img src="./img/home-how-work-mo.png" alt="img" class="img-fluid d-block d-lg-none d-md-block w-100">
+            </div>
+            <div class="home-how-it-content">
+                <div class="container">
+                    <div class="how-it-works-content">
+                        <div class="row">
+                            <div class="col-lg-8 col-md-8 col-sm-12 col-12 text-center m-auto">
+                                <p class="our-process">Our Process</p>
+                                <h2 class="h2-black">How it works</h2>
+                                <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dolor donec sit suspendisse euismod imperdiet.</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="dynamic-tab-sec d-none d-lg-block d-md-block">
+                    <div class="row">
+                        <div class="col-lg-10 col-md-10 col-sm-12 col-12 m-auto">
+                            <div class="row">
+                                <div class="col-4 dynamic-tab">
+                                    <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                                        <button class="nav-link " id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">
+                                           <img src="./img/gift-icon.svg" alt="" class="img-fluid"> <span>Choose packages</span>
+                                        </button>
+                                        <button class="nav-link active" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">
+                                            <img src="./img/schedule-icon.svg" alt="" class="img-fluid"> <span>Schedule appointment</span>
+                                        </button>
+                                        <button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-contact" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">
+                                            <img src="./img/grow-icon.svg" alt="" class="img-fluid me-5"> <span class="">grow together</span>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="col-8 tab-details">
+                                    <div class="tab-content" id="pills-tabContent">
+                                        <div class="tab-pane fade " id="v-pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                                            <h3>use our easy contact form to schedule an appointment with us</h3>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi lorem pharetra feugiat ut. Nunc
+                                                 vestibulum nunc facilisi scelerisque netus in arcu. Facilisis luctus morbi id id fermentum ac. 
+                                                 Odio magna accumsan, feugiat pulvinar tristique nulla ut feugiat donec. Non turpis nisl.
+                                            </p>
+                                            <a href="contact.html" class="btn btn-tertiary">Contact Us</a>
+                                        </div>
+                                        <div class="tab-pane fade show active" id="v-pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                                            <h3>use our easy contact form to schedule an appointment with us</h3>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi lorem pharetra feugiat ut. Nunc
+                                                 vestibulum nunc facilisi scelerisque netus in arcu. Facilisis luctus morbi id id fermentum ac. 
+                                                 Odio magna accumsan, feugiat pulvinar tristique nulla ut feugiat donec. Non turpis nisl.
+                                            </p>
+                                            <a href="contact.html" class="btn btn-tertiary">Contact Us</a>
+                                        </div>
+                                        <div class="tab-pane fade" id="v-pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+                                            <h3>use our easy contact form to schedule an appointment with us</h3>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi lorem pharetra feugiat ut. Nunc
+                                                 vestibulum nunc facilisi scelerisque netus in arcu. Facilisis luctus morbi id id fermentum ac. 
+                                                 Odio magna accumsan, feugiat pulvinar tristique nulla ut feugiat donec. Non turpis nisl.
+                                            </p>
+                                            <a href="contact.html" class="btn btn-tertiary">Contact Us</a>
+                                        </div>
+                                      </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="dynamic-tab-sec d-block d-lg-none d-md-none">
+                    <div class="row">
+                        <div class="col-12 text-center">
+                            <button class="nav-link mb-3">
+                                <img src="./img/gift-icon.svg" alt="" class="img-fluid"> <span class="m-5">Choose packages</span>
+                             </button>
+                             <div class="tab-panel">
+                                <h3>use our easy contact form to schedule an appointment with us</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi lorem pharetra feugiat ut. Nunc
+                                     vestibulum nunc facilisi scelerisque netus in arcu. Facilisis luctus morbi id id fermentum ac. 
+                                     Odio magna accumsan, feugiat pulvinar tristique nulla ut feugiat donec. Non turpis nisl.
+                                </p>
+                                <a href="contact.html" class="btn btn-tertiary">Read More</a>
+                            </div>
+                        </div>
+                        <div class="col-12 text-center">
+                            <button class="nav-link active mt-4">
+                                <img src="./img/schedule-icon.svg" alt="" class="img-fluid"> <span class="m-4">Schedule appointment</span>
+                            </button>
+                            <div class="tab-panel">
+                                <h3>use our easy contact form to schedule an appointment with us</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi lorem pharetra feugiat ut. Nunc
+                                     vestibulum nunc facilisi scelerisque netus in arcu. Facilisis luctus morbi id id fermentum ac. 
+                                     Odio magna accumsan, feugiat pulvinar tristique nulla ut feugiat donec. Non turpis nisl.
+                                </p>
+                                <a href="contact.html" class="btn btn-tertiary">Read More</a>
+                            </div>
+                        </div>
+                        <div class="col-12 text-center">
+                            <button class="nav-link mt-4" >
+                                <img src="./img/grow-icon.svg" alt="" class="img-fluid"> <span class="m-5">grow together</span>
+                             </button>
+                             <div class="tab-panel">
+                                <h3>use our easy contact form to schedule an appointment with us</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi lorem pharetra feugiat ut. Nunc
+                                     vestibulum nunc facilisi scelerisque netus in arcu. Facilisis luctus morbi id id fermentum ac. 
+                                     Odio magna accumsan, feugiat pulvinar tristique nulla ut feugiat donec. Non turpis nisl.
+                                </p>
+                                <a href="contact.html" class="btn btn-tertiary">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>     
+  </section>
+  <section class="home-slider">
+      <img src="./img/home-slider-bg.png" alt="img" class="img-fluid bg-image" style="object-fit: fill;">
+    <div class="container">
+       <div class="col">
+           <div class="row">
+                <div class="col-lg-8 col-md-8 col-sm-12 col-12 m-auto text-center">
+                    <div class="textimonials-head">
+                        <span>Testimonials</span>
+                        <h2 class="h2-white mt-lg-0 mt-4">Why our clients love ocean blue marketing</h2>
+                    </div>
+                </div>
+           </div>
+       </div>
+        <div class="row">
+            <div class="col-lg-11 col-md-11 col-sm-12 col-12 m-auto text-center">
+                <div class="owl-slider">
+                    <div id="carousel" class="owl-carousel">
+                        <div class="item">
+                            <div class="testimonials-card text-center">
+                                <h6>Mary, FL</h6>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Hendrerit a, 
+                                    congue congue velit eget integer semper. Pharetra sit vulputate sagittis, 
+                                    tincidunt et etiam. Aliquam, molestie amet, fringilla volutpat amet nulla. 
+                                    Sit dolor tortor ac tortor, sem eu dignissim maecenas. 
+                                    Imperdiet massa blandit porttitor leo.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="testimonials-card text-center">
+                                <h6>Mary, FL</h6>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Hendrerit a, 
+                                    congue congue velit eget integer semper. Pharetra sit vulputate sagittis, 
+                                    tincidunt et etiam. Aliquam, molestie amet, fringilla volutpat amet nulla. 
+                                    Sit dolor tortor ac tortor, sem eu dignissim maecenas. 
+                                    Imperdiet massa blandit porttitor leo.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="testimonials-card text-center">
+                                <h6>Mary, FL</h6>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Hendrerit a, 
+                                    congue congue velit eget integer semper. Pharetra sit vulputate sagittis, 
+                                    tincidunt et etiam. Aliquam, molestie amet, fringilla volutpat amet nulla. 
+                                    Sit dolor tortor ac tortor, sem eu dignissim maecenas. 
+                                    Imperdiet massa blandit porttitor leo.
+                                </p>
+                            </div>
+                        </div>
+                    
+                          <div class="item">
+                            <div class="testimonials-card text-center">
+                                <h6>Mary, FL</h6>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Hendrerit a, 
+                                    congue congue velit eget integer semper. Pharetra sit vulputate sagittis, 
+                                    tincidunt et etiam. Aliquam, molestie amet, fringilla volutpat amet nulla. 
+                                    Sit dolor tortor ac tortor, sem eu dignissim maecenas. 
+                                    Imperdiet massa blandit porttitor leo.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="testimonials-card text-center">
+                                <h6>Mary, FL</h6>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Hendrerit a, 
+                                    congue congue velit eget integer semper. Pharetra sit vulputate sagittis, 
+                                    tincidunt et etiam. Aliquam, molestie amet, fringilla volutpat amet nulla. 
+                                    Sit dolor tortor ac tortor, sem eu dignissim maecenas. 
+                                    Imperdiet massa blandit porttitor leo.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </section>
+  <section class="about-last-sec home-last-se">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-12 col-sm-12 last-bg-color p-mo-0">
+                    <div class="last-content">
+                        <h2 class="h2-black">Ready to let us help you grow your business ? </h2>
+                        <p> Lorem ipsum dolor sit amet, consectetur
+                            adipiscing elit. Dolor donec sit.
+                        </p>
+                    <div class="d-lg-flex justify-content-lg-between">
+                        <a href="" class="btn btn-tertiary">view Our services</a>
+                        <p class="mt-3 mt-lg-4 or">OR</p>
+                        <a href="contact.html" class="btn btn-tertiary-border ">Contact Us</a>
+                    </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-12 col-sm-12 p-mo-0 ps-lg-0">
+                    <img src="./img/last-right.png" alt="" class="img-fluid d-none d-lg-block d-md-block">
+                    <img src="./img/last-right-mo.png" alt="" class="img-fluid d-block d-lg-none d-md-none w-100">
+                </div>
+            </div>
+        </div>
+  </section>
+
+<footer class="footer-bg d-none d-lg-block d-md-block">
+       <div class="container">
+          <div class="row">
+              <div class="col-lg-9 col-md-9 col-sm-12 col-12">
+                  <div class="row">
+                      <div class="col-lg-3 col-md-3 col-12 col-sm-12">
+                        <div class="footer-content">
+                            <h5 class="footer-head">Services</h5> 
+                            <p><a href="#" class="footer-a">SEO</a></p>
+                            <p><a href="#" class="footer-a">PPC</a></p>
+                            <p><a href="#" class="footer-a">ORM</a></p>
+                        </div>
+                      </div>
+                      <div class="col-lg-4 col-md-4 col-12 col-sm-12">
+                          <div class="footer-content"> 
+                              <div class="space-top"></div>
+                              <p><a href="#" class="footer-a">Web Design & Development</a></p>
+                              <p><a href="#" class="footer-a">Social Media </a></p>
+                              <p><a href="#" class="footer-a">Email Marketing</a></p>
+                          </div>
+                      </div>
+                      <div class="col-lg-5 col-md-5 col-12 col-sm-12">
+                          <div class="footer-content"> 
+                            <h5 class="footer-head">Contact us</h5>
+                              <p><a href="#" class="footer-a">info@oceanbluemarketing.com</a></p>
+                              <p><a href="#" class="footer-a">123 Main Street, </a></p>
+                              <p><a href="#" class="footer-a">New York, </a></p>
+                              <p><a href="#" class="footer-a">NY </a></p>
+                              <p><a href="#" class="footer-a">10030</a></p>
+                         </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-lg-3 col-md-3 col-sm-12 col-12">
+                  <div class="footer-content text-lg-end text-center"> 
+                    <a href="index.html"><img src="img/white-logo.svg" class="img-fluid"></a>
+                    <br>
+                    <img src="img/Mastercard.png" class="img-fluid my-3">
+                  </div>
+              </div>
+          </div>
+          <div class="row">  
+              <div class="col-md-8 col-lg-8 col-12 col-12">
+                <p><a href="#" class="footer-bottom-a">© 2021 Ocean Blue Marketing. All Rights Reserved</a></p>
+              </div>
+              <div class="col-md-4 col-lg-4 col-12 col-12">
+                <div class="row">
+                  <div class="col-md-2 col-lg-2 col-12 col-12">
+                  </div>
+                  <div class="col-md-6 col-lg-6 col-12 col-12">
+                    <p><a href="#" class="footer-bottom-a">Terms and Conditions</a></p>
+                  </div>
+                  <div class="col-md-4 col-lg-4 col-12 col-12">
+                    <p><a href="#" class="footer-bottom-a">Privacy Policy</a></p>
+                  </div>
+                </div>
+              </div>
+          </div>
+       </div>
+   </footer>
+   <footer class="footer-bg d-block d-lg-none d-md-none">
+    <div class="container">
+       <div class="row">
+           <div class="col-lg-9 col-md-9 col-sm-12 col-12">
+               <div class="row">
+                   <div class="col-6">
+                     <div class="footer-content">
+                         <h5 class="footer-head">Services</h5> 
+                         <p><a href="#" class="footer-a">SEO</a></p>
+                         <p><a href="#" class="footer-a">PPC</a></p>
+                         <p><a href="#" class="footer-a">ORM</a></p>
+                         <p><a href="#" class="footer-a">Web Design & Development</a></p>
+                         <p><a href="#" class="footer-a">Social Media </a></p>
+                         <p><a href="#" class="footer-a">Email Marketing</a></p>
+                     </div>
+                   </div>   
+                   <div class="col-6">
+                       <div class="footer-content"> 
+                         <h5 class="footer-head">Contact us</h5>
+                           <p><a href="#" class="footer-a">123 Main Street, </a></p>
+                           <p><a href="#" class="footer-a">New York, </a></p>
+                           <p><a href="#" class="footer-a">NY </a></p>
+                           <p><a href="#" class="footer-a">10030</a></p>
+                      </div>
+                   </div>
+               </div>
+           </div>
+           <div class="col-lg-3 col-md-3 col-sm-12 col-12">
+               <div class="footer-content text-lg-end text-center my-5"> 
+                 <a href="index.html"><img src="img/white-logo.svg" class="img-fluid"></a>
+                 <br>
+                 <img src="img/Mastercard.png" class="img-fluid my-3">
+               </div>
+           </div>
+       </div>
+       <hr>
+       <div class="row"> 
+           <div class="col-md-4 col-lg-4 col-12 col-12">
+             <div class="row">
+               <div class="col-6">
+                 <p><a href="tc.html" class="footer-bottom-a">Terms and Conditions</a></p>
+               </div>
+               <div class="col-6 text-center">
+                 <p><a href="privacy-policy.html" class="footer-bottom-a text-center">Privacy Policy</a></p>
+               </div>
+             </div>
+           </div>
+           <div class="col-12">
+            <p><a href="#" class="footer-bottom-a">© 2021 Ocean Blue Marketing. All Rights Reserved</a></p>
+          </div>
+       </div>
+    </div>
+</footer>
+
+    <script src="dist/js/jquery.min.js"></script>
+    <script src="dist/js/app.js"></script>
+    <script src="dist/js/owl.carousel.js"></script>
+    <script src="dist/js/bootstrap.min.js"></script>
+    <script src="dist/js/popper.js"></script>
+    <script src="dist/js/slick.js"></script>
+    <script src="dist/js/flickity.pkgd.min.js"></script>
+    
+    <script>
+      $(document).ready(function() {
+          $(".inactive").click(function(){
+              $(".mobile-slide-menu").fadeIn("slow");
+          });
+          $(".menuactive").click(function(){
+              $(".mobile-slide-menu").fadeOut("slow");
+          });
+      });
+  </script>
+  <script>
+      jQuery("#carousel").owlCarousel({
+        autoplay: true,
+        rewind: true, 
+        margin: 20,
+        responsiveClass: true,
+        autoHeight: true,
+        autoplayTimeout: 7000,
+        smartSpeed: 800,
+        nav: false,
+        dots:false,
+        responsive: {
+            300: {
+            items: 1,
+            nav: true,
+            navigation: true,
+            navText: ["<span class='show-for-sr'><img src='./img/left-arrow.svg'></span>","<span class='show-for-sr'><img src='./img/right-arrow.svg'></span>"]
+            },
+
+            600: {
+            items: 2
+            },
+
+            1024: {
+            items: 2
+            },
+
+            1366: {
+            items: 3
+            }
+        }
+        });
+  </script>
+  </body>
+  </html>

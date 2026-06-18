@@ -1,0 +1,814 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lingosphere</title>
+
+    <!-- Style Sheets -->
+    <link rel="stylesheet" href="./dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/m_styles.css">
+    <link rel="stylesheet" href="./css/tirthak_styles.css">
+    <link rel="stylesheet" href="./css/saakshi.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <header class="fixed-top">
+        <div class="header_top">
+            <div class="container desktop_header p-0">
+                <div class="header_main_container">
+                    <div class="header_left">
+                        <a href="./index.html">
+                            <img src="./img/header_logo.svg" alt="" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="header_right">
+                        <div class="currency_drop_container">
+                            <button class="btn btn_currency_drop" onclick="justDrop('service_drop', 'roter1')">
+                                Our Services
+                                <img src="./img/drop.svg" alt="" class="img-fluid" id="roter1">
+                            </button>
+                            <div class="dropped_div d-none" id="service_drop">
+                                <img src="./img/polygon_trigonal.svg" alt="" class="img-fluid poly_img">
+                                <button class="btn btn_header_service">Certified translation</button>
+                                <button class="btn btn_header_service">Standard translation</button>
+                                <div class="dotted"></div>
+                                <button class="btn btn_header_service">Supported languages</button>
+                                <button class="btn btn_header_service">Supported documents</button>
+                            </div>
+                        </div>
+                        <button class="btn btn_header_link active">
+                            About Us
+                        </button>
+                        <button class="btn btn_header_link">
+                            Join us
+                        </button>
+                        <button class="btn btn_header_link">
+                            FAQ's
+                        </button>
+                        <button class="btn btn_header_link">
+                            Support
+                        </button>
+                        <div class="vertical_bar"></div>
+                        <div class="currency_drop_container">
+                            <button class="btn btn_currency_drop" onclick="justDrop('currency_drop', 'roter2')">
+                                AUD
+                                <img src="./img/drop.svg" alt="" class="img-fluid" id="roter2">
+                            </button>
+                            <div class="dropped_div_currency d-none" id="currency_drop">
+                                <img src="./img/polygon_trigonal.svg" alt="" class="img-fluid poly_img">
+                                <button class="btn btn_currency active">$ AUD</button>
+                                <button class="btn btn_currency">$ GBP</button>
+                                <button class="btn btn_currency">$ USD</button>
+                            </div>
+                        </div>
+                        <div class="cart_acc">
+                            <button class="btn btn_header_link">
+                                <img src="./img/cart_basket.svg" alt="" class="img-fluid">
+                            </button>
+                            <button class="btn btn_header_link">
+                                <img src="./img/acc_logo.svg" alt="" class="img-fluid">
+                            </button>
+                        </div>
+                        <button class="btn btn_header">
+                            Get your translations
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="container mobile_header">
+                <div class="header_mobo_main">
+                    <div class="header_mobo_left">
+                        <img src="./img/header_mobo.svg" alt="" class="img-fluid">
+                    </div>
+
+                    <div class="header_mobo_right">
+                        <button class="btn btn_mobo_cart">
+                            <img src="./img/cart_basket.svg" alt="" class="img-fluid">
+                        </button>
+                        <div class="hamburger_menu">
+                            <img src="./img/hamburger_logo.svg" alt="" class="img-fluid">
+                        </div>
+                        <div class="hamburger_menu_close" style="display: none;">
+                            <img src="./img/hamburger_close.svg" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header_mobo_main_slide" style="display: none;">
+            <div class="header_main_mobo">
+                <div class="currency_drop_container">
+                    <button class="btn btn_currency_drop" onclick="justDrop('service_drop2', 'roter3')">
+                        Services
+                        <img src="./img/drop.svg" alt="" class="img-fluid" id="roter3">
+                    </button>
+                    <div class="dropped_div d-none" id="service_drop2">
+                        <button class="btn btn_header_service">Certified translation</button>
+                        <button class="btn btn_header_service">Standard translation</button>
+                        <div class="dotted"></div>
+                        <button class="btn btn_header_service">Supported languages</button>
+                        <button class="btn btn_header_service">Supported documents</button>
+                    </div>
+                </div>
+
+                <button class="btn btn_header_link active_class">
+                    Our story
+                </button>
+                <button class="btn btn_header_link">
+                    Join us
+                </button>
+                <button class="btn btn_header_link">
+                    Faqs
+                </button>
+                <button class="btn btn_header_link">
+                    Contact
+                </button>
+                <div class="dotted"></div>
+                <button class="btn btn_header_link">
+                    <img src="./img/acc_logo.svg" alt="" class="img-fluid"> My account
+                </button>
+                <button class="btn btn_header_link">
+                    <img src="./img/cart_basket.svg" alt="" class="img-fluid"> Shopping Cart
+                </button>
+                <div class="currency_drop_container">
+                    <button class="btn btn_currency_drop" onclick="justDrop('currency_drop2', 'roter4')">
+                        AUD
+                        <img src="./img/drop.svg" alt="" class="img-fluid" id="roter4">
+                    </button>
+                    <div class="dropped_div_currency d-none" id="currency_drop2">
+                        <button class="btn btn_currency active">$ AUD</button>
+                        <button class="btn btn_currency">$ GBP</button>
+                        <button class="btn btn_currency">$ USD</button>
+                    </div>
+                </div>
+                <button class="btn btn_header">
+                    Translate Now
+                </button>
+
+            </div>
+        </div>
+
+
+    </header>
+
+    <section class="home_page">
+        
+
+
+        <div class="hs1">
+            <div class="sh1_inner">
+                <div class="hs1_main">
+                    <div class="hs1_left">
+                        <div class="hs1_content">
+                            <div class="hs1_pill">
+                                <p class="hs1_pre_title">Online Global Translator</p>
+                            </div>
+                            <h1 class="hs1_title">
+                                Achieve Global Clarity through 
+                            </h1>
+                            <p class="hs1_subtitle">
+                                Lorem ipsum dolor sit amet consectetur. Turpis pharetra enim pretium donec quis platea diam. Elit cras vestibulum neque vulputate cum nec. Ac mauris mattis a duis dui blandit. Fusce imperdiet pellentesque pretium tincidunt euismod. Sapien nisi.
+                            </p>
+                            <button class="btn btn_big_hs1">
+                                Start Here
+                                <div class="circ">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="15" viewBox="0 0 14 15" fill="none">
+                                        <path d="M1 7.5H13M13 7.5L7 1.5M13 7.5L7 13.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </div>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="hs1_right">
+                            <video class="bg-image d-lg-block d-md-block d-none" loop="" muted="" autoplay="" style="object-fit: cover;">
+                                <source src="./img/hs1_vid.mp4" type="video/mp4">
+                            </video>
+                            
+                            <video class="bg-image d-lg-none d-md-none d-block" loop="" muted="" autoplay="" style="object-fit: cover;">
+                                <source src="./img/hs1_vid.mp4" type="video/mp4">
+                            </video>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="home_sec2">
+
+            <div class="home_floater">
+                <div class="floater_inner">
+                    <h1 class="floater_title">Versatility</h1>
+                    <p class="floater_subtitle">
+                        Amet quis vitae lectus nibh lectus facilisis ut.
+                    </p>
+                </div>
+                <div class="floater_inner">
+                    <h1 class="floater_title">Versatility</h1>
+                    <p class="floater_subtitle">
+                        Amet quis vitae lectus nibh lectus facilisis ut.
+                    </p>
+                </div>
+                <div class="floater_inner">
+                    <h1 class="floater_title">Versatility</h1>
+                    <p class="floater_subtitle">
+                        Amet quis vitae lectus nibh lectus facilisis ut.
+                    </p>
+                </div>
+                <div class="floater_inner">
+                    <h1 class="floater_title">Versatility</h1>
+                    <p class="floater_subtitle">
+                        Amet quis vitae lectus nibh lectus facilisis ut.
+                    </p>
+                </div>
+            </div>
+            <div>
+                <h1 class="joinus3_tt">why use us?</h1>
+                <p class="joinus3_pp" style="margin-bottom: 0px;">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam.</p>
+            </div>
+            <div class="home_div_box">
+
+                <div class="joinus_boxes">
+
+                    <div class="top_join_box">
+                        Legal Compliance
+                    </div>
+
+                    <div class="bottom_join_box">
+
+                        <img src="./img/home_icons1.svg" alt="" class="img-fluid">
+
+                        <p class="bottom_join_box_pp">Lorem ipsum dolor amet, consetetur sadipscing elitr, sed diam nonumy</p>
+                        
+                    </div>
+
+                </div>
+                <div class="joinus_boxes">
+
+                    <div class="top_join_box">
+                        Cost Efficiency
+                    </div>
+
+                    <div class="bottom_join_box">
+
+                        <img src="./img/home_icons2.svg" alt="" class="img-fluid">
+
+                        <p class="bottom_join_box_pp">Lorem ipsum dolor amet, consetetur sadipscing elitr, sed diam nonumy</p>
+                        
+                    </div>
+
+                </div>
+                <div class="joinus_boxes">
+
+                    <div class="top_join_box">
+                        Quality Assurance
+                    </div>
+
+                    <div class="bottom_join_box">
+
+                        <img src="./img/home_icons3.svg" alt="" class="img-fluid">
+
+                        <p class="bottom_join_box_pp">Lorem ipsum dolor amet, consetetur sadipscing elitr, sed diam nonumy</p>
+                        
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="home_sec3">
+
+
+            <div class="left_home3">
+
+            </div>
+
+            <div class="right_home3">
+
+                <img src="./img/sound1_ct.svg" alt="" class="img-fluid sound1_home mobile_none">
+                <img src="./img/sound2_ct.svg" alt="" class="img-fluid sound2_home mobile_none">
+
+                <div class="home_languages_main_div">
+                    
+                    <div class="top_lang_div">
+                            <h1 class="sec3ct_tt" >Many languages to choose from!</h1>
+                            <p class="sec5ct_pp">A euismod arcu nunc sem commodo elementum pretium. Aenean aliquet vitae mattis aliquam ipsum purus enim. Habitant auctor porttitor sed eu a commodo. Pretium convallis id elementum laoreet. Elementum sit aliquam sed habitant venenatis amet gravida ac nullam. Et convallis felis feugiat enim.</p>
+                    </div>
+
+                    <div class="middle_lang_div">
+
+                        <div class="singlecol_lang">
+
+                            <div class="languages_div_div">
+                                Spanish
+
+                                <img src="./img/blackcircle.svg" alt="" class="img-fluid blackcircle">
+                            </div>
+
+                            <div class="languages_div_div">
+                                Arabic
+
+                                <img src="./img/blackcircle.svg" alt="" class="img-fluid blackcircle">
+                            </div>
+
+                            <div class="languages_div_div">
+                                German
+                                <img src="./img/blackcircle.svg" alt="" class="img-fluid blackcircle">
+                            </div>
+
+                        </div>
+
+                        <div class="singlecol_lang">
+
+                            <div class="languages_div_div">
+                                Japanese
+
+                                <img src="./img/blackcircle.svg" alt="" class="img-fluid blackcircle">
+                            </div>
+
+                            <div class="languages_div_div">
+                                Italian
+
+                                <img src="./img/blackcircle.svg" alt="" class="img-fluid blackcircle">
+                            </div>
+
+                            <div class="languages_div_div">
+                                Russian
+                                <img src="./img/blackcircle.svg" alt="" class="img-fluid blackcircle">
+                            </div>
+
+                        </div>
+
+                        <div class="singlecol_lang mobile_none">
+
+                            <div class="languages_div_div">
+                                Chinese
+
+                                <img src="./img/blackcircle.svg" alt="" class="img-fluid blackcircle">
+                            </div>
+
+                            <div class="languages_div_div">
+                                French
+
+                                <img src="./img/blackcircle.svg" alt="" class="img-fluid blackcircle">
+                            </div>
+
+                            <div class="languages_div_div">
+                                +Many More!
+                                <img src="./img/blackcircle.svg" alt="" class="img-fluid blackcircle">
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <button class="btn green_btn forphone_100width">
+
+                        <div class="mobile_none">
+                            Start Today
+                        </div>
+
+                        <div class="desktop_none">
+                            See All
+                        </div>
+                        
+                    </button>
+
+                    
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="sec3_au">
+
+            <div class="top_sec3_au">
+                    <h1 class="sec3au_tt" style="margin-bottom: 0px;">
+                        3 Simple steps
+                    </h1>
+            </div>
+
+            <div class="container p-0">
+                <div class="bottom_sec3_au">
+
+                    <div class="per_greenbox">
+    
+                        <div class="inner_green_box">
+    
+                        </div>
+    
+                        <div class="topb_box">
+                            Step 1
+                        </div>
+                        <div class="bottom_box">
+                            Upload text Files
+                        </div>
+    
+                    </div>
+                    <div class="per_greenbox">
+    
+                        <div class="inner_green_box">
+    
+                        </div>
+    
+                        <div class="topb_box">
+                            Step 2
+                        </div>
+                        <div class="bottom_box">
+                            Pay Online
+                        </div>
+    
+                    </div>
+                    <div class="per_greenbox">
+    
+                        <div class="inner_green_box">
+    
+                        </div>
+    
+                        <div class="topb_box">
+                            Step 3
+                        </div>
+                        <div class="bottom_box">
+                            Get Your Translations
+                        </div>
+    
+                    </div>
+    
+                </div>
+            </div>
+
+            <button class="btn green_btn forphone_100width">
+                Create an account
+            </button>
+
+            
+        </div>
+
+        <div class="home_sec5">
+
+
+            <div class="left_home5">
+
+                <img src="./img/sound3_ct.svg" alt="" class="img-fluid sound3_ct mobile_none">
+                <img src="./img/sound4_ct.svg" alt="" class="img-fluid sound4_ct mobile_none">
+
+
+                <div class="in_left_home5">
+
+                    <div class="top_sec6_left">
+                        <h1 class="sec3ct_tt" >What are others using?</h1>
+                        <p class="sec6ct_pp">A euismod arcu nunc sem commodo elementum pretium. Aenean aliquet vitae mattis aliquam ipsum purus enim. Habitant auctor porttitor sed eu a commodo. Pretium convallis id elementum laoreet. Elementum sit aliquam sed habitant venenatis amet gravida ac nullam. Et convallis felis feugiat enim.</p>
+                    </div>
+
+
+                    <div class="mobile_none">
+                        <div class="middle_lang_div">
+
+                        
+
+                            <div class="singlecol_lang">
+    
+                                <div class="languages_div_div">
+                                    Vaccination Records.
+                                    <img src="./img/blackcircle.svg" alt="" class="img-fluid blackcircle">
+                                </div>
+    
+                                <div class="languages_div_div">
+                                    Transcripts.
+    
+                                    <img src="./img/blackcircle.svg" alt="" class="img-fluid blackcircle">
+                                </div>
+    
+                               
+    
+                            </div>
+    
+                            <div class="singlecol_lang mobile_none">
+    
+                                
+                                <div class="languages_div_div">
+                                    Bank and financial.
+    
+                                    <img src="./img/blackcircle.svg" alt="" class="img-fluid blackcircle">
+                                </div>
+    
+                                <div class="languages_div_div">
+                                    Marriage Certificate.
+                                    <img src="./img/blackcircle.svg" alt="" class="img-fluid blackcircle">
+                                </div>
+    
+                            </div>
+    
+                        </div>
+    
+                    </div>
+
+                    
+
+                    <div class="desktop_none">
+                        <div class="middle_lang_div">
+
+                        
+
+                            <div class="singlecol_lang">
+    
+                                <div class="languages_div_div">
+                                    Vaccination Records.
+                                    <img src="./img/blackcircle.svg" alt="" class="img-fluid blackcircle">
+                                </div>
+    
+                                <div class="languages_div_div">
+                                    Transcripts.
+    
+                                    <img src="./img/blackcircle.svg" alt="" class="img-fluid blackcircle">
+                                </div>
+
+
+                                <div class="languages_div_div">
+                                    Bank and financial.
+    
+                                    <img src="./img/blackcircle.svg" alt="" class="img-fluid blackcircle">
+                                </div>
+    
+                                <div class="languages_div_div">
+                                    Marriage Certificate.
+                                    <img src="./img/blackcircle.svg" alt="" class="img-fluid blackcircle">
+                                </div>
+    
+                               
+    
+                            </div>
+    
+    
+                        </div>
+                    </div>
+                    
+
+                    <button class="btn green_btn forphone_100width">
+                        Explore More
+                    </button>
+
+                    
+
+                </div>
+            </div>
+
+            <div class="right_home5">
+
+            </div>
+
+        </div>
+
+        <div class="hs6">
+            <div class="container">
+                <h1 class="hs6_title">Additional Benefits</h1>
+                <div class="hs6_carousel">
+                    <div class="owl-carousel owl-theme">
+                        
+                            <div class="hs6_card">
+                                <div class="hs6_card_img_frame">
+                                    <img src="./img/hs6_i1.png" alt="" class="img-fluid hs6_card_img">
+                                </div>
+                                <div class="hs6_card_body">
+                                    <h1 class="hs6_card_title">Market Expansion</h1>
+                                    <p class="hs6_card_subtitle">Tortor sed at metus a eget sodales ultrices. Nec in posuere phasellus quis dui ut. Sed nibh aenean eu aenean. Adipiscing.</p>
+                                </div>
+                            </div>
+                        
+                        
+                            <div class="hs6_card">
+                                <div class="hs6_card_img_frame">
+                                    <img src="./img/hs6_i2.png" alt="" class="img-fluid hs6_card_img">
+                                </div>
+                                <div class="hs6_card_body">
+                                    <h1 class="hs6_card_title">Global Reach</h1>
+                                    <p class="hs6_card_subtitle">Tortor sed at metus a eget sodales ultrices. Nec in posuere phasellus quis dui ut. Sed nibh aenean eu aenean. Adipiscing.</p>
+                                </div>
+                            </div>
+                        
+                        
+                            <div class="hs6_card">
+                                <div class="hs6_card_img_frame">
+                                    <img src="./img/hs6_i3.png" alt="" class="img-fluid hs6_card_img">
+                                </div>
+                                <div class="hs6_card_body">
+                                    <h1 class="hs6_card_title">Brand Reputation</h1>
+                                    <p class="hs6_card_subtitle">Tortor sed at metus a eget sodales ultrices. Nec in posuere phasellus quis dui ut. Sed nibh aenean eu aenean. Adipiscing.</p>
+                                </div>
+                            </div>
+                        
+                        
+                            <div class="hs6_card">
+                                <div class="hs6_card_img_frame">
+                                    <img src="./img/hs6_i4.png" alt="" class="img-fluid hs6_card_img">
+                                </div>
+                                <div class="hs6_card_body">
+                                    <h1 class="hs6_card_title">Cultural Sesitivity</h1>
+                                    <p class="hs6_card_subtitle">Tortor sed at metus a eget sodales ultrices. Nec in posuere phasellus quis dui ut. Sed nibh aenean eu aenean. Adipiscing.</p>
+                                </div>
+                            </div>
+                        
+                    </div>
+                </div>
+                <button class="btn green_btn forphone_100width mx-auto">
+                    View Our Services
+                </button>
+            </div>
+        </div>
+
+        <div class="ct_sec3">
+            <div>
+                <img src="./img/home_last_mob.png" alt="" class="img-fluid desktop_none" style="width: 100%;">
+            </div>
+
+            <div class="in_ct_sec3">
+
+                <div class="container p-0">
+                        <div class="dv_sec1">
+                            <div>
+                                <h1 class="sec3ct_tt">Discover the benefits</h1>
+                                <p class="sec3ct_pp">A euismod arcu nunc sem commodo elementum pretium. Aenean aliquet vitae mattis aliquam ipsum purus enim. Habitant auctor porttitor sed eu a commodo. Pretium convallis id elementum laoreet. Elementum sit aliquam sed habitant venenatis amet gravida ac nullam. Et convallis felis feugiat.</p>
+                            </div>
+                            <button class="btn green_btn forphone_100width">
+                                Sign up today!
+                            </button>
+
+                        </div>
+                </div>
+                <img src="./img/home_last.png" alt="" class="img-fluid cut_boxes2 mobile_none">
+            </div>
+
+        </div>
+
+
+    </section>
+
+    <footer class="footer">
+        <div class="footer_top">
+            <div class="footer_top_one">
+                <img src="./img/footer_logo.svg" alt="" class="img-fluid mobile_none">
+                <img src="./img/footer_mobo_logo.svg" alt="" class="img-fluid desktop_none">
+                <img src="./img/masterCard.svg" alt="" class="img-fluid">
+            </div>
+            <div class="footer_top_two">
+                <div class="footer_top_two_top">
+                    <button class="btn footer_link">Our Services</button>
+                    <img src="./img/circle.svg" alt="" class="img-fluid mobile_none">
+                    <button class="btn footer_link">About us</button>
+                    <img src="./img/circle.svg" alt="" class="img-fluid mobile_none">
+                    <button class="btn footer_link">Join us</button>
+                    <img src="./img/circle.svg" alt="" class="img-fluid mobile_none">
+                    <button class="btn footer_link">FAQ's</button>
+                    <img src="./img/circle.svg" alt="" class="img-fluid mobile_none">
+                    <button class="btn footer_link">Support</button>
+                    <img src="./img/circle.svg" alt="" class="img-fluid mobile_none">
+                    <button class="btn footer_link">Terms & Conditions</button>
+                    <img src="./img/circle.svg" alt="" class="img-fluid mobile_none">
+                    <button class="btn footer_link">Privacy Policy</button>
+                </div>
+                <div class="dotted"></div>
+                <div class="footer_top_two_bottom">
+                    <button class="btn footer_link">Gangnam-gu, Seoul (postcode: 11111)</button>
+                    <img src="./img/circle.svg" alt="" class="img-fluid mobile_none">
+                    <button class="btn footer_link">support@Lingosphere.com</button>
+                    <img src="./img/circle.svg" alt="" class="img-fluid mobile_none">
+                    <button class="btn footer_link">319-00-0000</button>
+                </div>
+            </div>
+        </div>
+        <div class="footer_bottom">
+            <p class="footer_copyright">©Lingosphere. 2024 All right reserved.</p>
+        </div>
+    </footer>
+
+
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+    integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="./dist/js/owl.carousel.js"></script>
+<!-- <script src="./dist/js/bootstrap.min.js"></script>
+    <script src="./dist/js/bootstrap.bundle.min.js"></script> -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous">
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+    integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous">
+</script>
+
+<script>
+    $(document).ready(function () {
+        $(".hamburger_menu").click(function () {
+            $(".header_mobo_main_slide").fadeIn("slow");
+            $(".hamburger_menu").fadeOut("slow");
+            $(".hamburger_menu_close").fadeIn("slow");
+            $(".header_cart_mobo_main_slide").fadeOut("slow");
+        });
+        $(".hamburger_menu_close").click(function () {
+            $(".header_mobo_main_slide").fadeOut("slow");
+            $(".hamburger_menu").fadeIn("slow");
+            $(".hamburger_menu_close").fadeOut("slow");
+        });
+        $(".cart_menu").click(function () {
+            $(".header_cart_mobo_main_slide").fadeIn("slow");
+            $(".cart_menu").fadeOut("slow");
+            $(".cart_menu_close").fadeIn("slow");
+            $(".header_mobo_main_slide").fadeOut("slow");
+        });
+        $(".cart_menu_close").click(function () {
+            $(".header_cart_mobo_main_slide").fadeOut("slow");
+            $(".cart_menu").fadeIn("slow");
+            $(".cart_menu_close").fadeOut("slow");
+        });
+    });
+
+    function justDrop(droperId, roterId) {
+        const theId = document.getElementById(droperId);
+        const theId2 = document.getElementById(roterId);
+        if (theId.classList.contains('d-none')) {
+            theId.classList.remove('d-none');
+            theId2.style.rotate = '180deg';
+        } else {
+            theId.classList.add('d-none');
+            theId2.style.rotate = '0deg';
+        }
+    }
+
+    function counterMinus(indexPosition) {
+        const myId = 'cart_product_units' + indexPosition;
+        const inputElement = document.getElementById(myId);
+        let currentValue = parseInt(inputElement.value, 10);
+
+        if (isNaN(currentValue)) {
+            currentValue = 0;
+        }
+
+        if (currentValue > 1) {
+            const newValue = currentValue - 1;
+            inputElement.value = newValue;
+        } else {
+            inputElement.value = currentValue;
+        }
+    }
+
+
+    function counterPlus(indexPosition) {
+        const myId = 'cart_product_units' + indexPosition;
+        const inputElement = document.getElementById(myId);
+        let currentValue = parseInt(inputElement.value, 10);
+
+        if (isNaN(currentValue)) {
+            currentValue = 0;
+        }
+
+        if (currentValue < 10) {
+            const newValue = currentValue + 1;
+            inputElement.value = newValue;
+        } else {
+            inputElement.value = currentValue;
+        }
+    }
+    
+    $(document).ready(function () {
+        $('.owl-carousel').owlCarousel({
+            loop:true,
+            margin:28,
+            nav:false,
+            dots: false,
+            responsive:{
+                0:{
+                    items:1,
+                    margin:0,
+                    loop: false,
+                    dots: false,
+                    nav:true,
+                    navText: ["<span class='btn btn_owl'><img class='img-fluid' src='./img/ar_l.png'/></span>","<span class='btn btn_owl'><img class='img-fluid' src='./img/ar_r.png'/></span>"],
+                },
+                600:{
+                    items:3
+                },
+                1000:{
+                    items:4
+                }
+            }
+        })
+    })
+
+</script>
+
+
+</html>

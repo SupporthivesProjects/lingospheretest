@@ -1,0 +1,63 @@
+<svg width="143" height="142" viewBox="0 0 143 142" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Group 156">
+<g id="Ellipse 2" opacity="0.2" filter="url(#filter0_f)">
+<circle cx="71.5" cy="70.9737" r="27.7105" fill="#3949DB"/>
+</g>
+<g id="Ellipse 1">
+<circle cx="71.5" cy="65.5" r="32.5" fill="white"/>
+<circle cx="71.5" cy="65.5" r="32" stroke="#3949DB" stroke-opacity="0.06"/>
+</g>
+<g id="748151 1" clip-path="url(#clip0)">
+<g id="Group">
+<g id="Group_2">
+<path id="Vector" d="M70.9337 79.9785C72.1439 79.9785 73.1251 78.9974 73.1251 77.7871C73.1251 76.5768 72.1439 75.5957 70.9337 75.5957C69.7234 75.5957 68.7422 76.5768 68.7422 77.7871C68.7422 78.9974 69.7234 79.9785 70.9337 79.9785Z" fill="url(#paint0_linear)"/>
+</g>
+</g>
+<g id="Group_3">
+<g id="Group_4">
+<path id="Vector_2" d="M87.6434 59.2839C83.2786 54.6008 77.368 52.0216 70.9997 52.0215C64.6321 52.0216 58.7215 54.6008 54.3565 59.2839C53.8565 59.8205 53.886 60.6609 54.4226 61.161C54.9592 61.6611 55.7996 61.6316 56.2997 61.095C60.1566 56.9568 65.3771 54.6778 71.0002 54.6777C76.6228 54.6778 81.8434 56.9568 85.7003 61.095C85.9618 61.3756 86.3165 61.5176 86.6721 61.5176C86.9964 61.5176 87.3214 61.3995 87.5774 61.161C88.1139 60.6609 88.1436 59.8205 87.6434 59.2839Z" fill="url(#paint1_linear)"/>
+</g>
+</g>
+<g id="Group_5">
+<g id="Group_6">
+<path id="Vector_3" d="M82.7668 64.7686C79.5403 61.5178 75.3614 59.7275 70.9999 59.7277C66.6373 59.7277 62.4584 61.518 59.2329 64.7687C58.7163 65.2894 58.7195 66.1303 59.2402 66.647C59.7609 67.1636 60.6018 67.1604 61.1184 66.6397C63.8414 63.8954 67.3507 62.384 70.9999 62.3839C74.6481 62.3838 78.1574 63.8952 80.8814 66.6398C81.141 66.9014 81.4825 67.0323 81.8241 67.0323C82.1622 67.0323 82.5006 66.9039 82.7597 66.6468C83.2803 66.1301 83.2835 65.2892 82.7668 64.7686Z" fill="url(#paint2_linear)"/>
+</g>
+</g>
+<g id="Group_7">
+<g id="Group_8">
+<path id="Vector_4" d="M77.4514 70.2694C75.7235 68.5575 73.2468 67.4941 70.9875 67.4941C70.9872 67.4941 70.9868 67.4941 70.9865 67.4941H70.8908C70.8904 67.4941 70.8902 67.4941 70.8898 67.4941C68.6305 67.4941 66.1535 68.5576 64.4257 70.2694C63.9047 70.7856 63.9007 71.6265 64.417 72.1476C64.6767 72.4097 65.0186 72.541 65.3605 72.541C65.6983 72.541 66.0362 72.4129 66.2952 72.1564C67.5252 70.9377 69.3286 70.1504 70.8899 70.1504C70.8901 70.1504 70.8904 70.1504 70.8906 70.1504H70.9867C70.9869 70.1504 70.987 70.1504 70.9873 70.1504C72.5484 70.1504 74.3519 70.9378 75.5819 72.1564C76.1029 72.6726 76.9439 72.6688 77.4601 72.1476C77.9764 71.6266 77.9725 70.7856 77.4514 70.2694Z" fill="url(#paint3_linear)"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<filter id="filter0_f" x="0.789429" y="0.263184" width="141.421" height="141.421" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="21.5" result="effect1_foregroundBlur"/>
+</filter>
+<linearGradient id="paint0_linear" x1="70.9337" y1="75.5957" x2="70.9337" y2="79.9785" gradientUnits="userSpaceOnUse">
+<stop stop-color="#3949DB"/>
+<stop offset="0.479167" stop-color="#3949DB"/>
+<stop offset="1" stop-color="#3949DB"/>
+</linearGradient>
+<linearGradient id="paint1_linear" x1="71" y1="52.0215" x2="71" y2="61.5176" gradientUnits="userSpaceOnUse">
+<stop stop-color="#3949DB"/>
+<stop offset="0.479167" stop-color="#3949DB"/>
+<stop offset="1" stop-color="#3949DB"/>
+</linearGradient>
+<linearGradient id="paint2_linear" x1="70.9999" y1="59.7277" x2="70.9999" y2="67.0323" gradientUnits="userSpaceOnUse">
+<stop stop-color="#3949DB"/>
+<stop offset="0.479167" stop-color="#3949DB"/>
+<stop offset="1" stop-color="#3949DB"/>
+</linearGradient>
+<linearGradient id="paint3_linear" x1="70.9386" y1="67.4941" x2="70.9386" y2="72.541" gradientUnits="userSpaceOnUse">
+<stop stop-color="#3949DB"/>
+<stop offset="0.479167" stop-color="#3949DB"/>
+<stop offset="1" stop-color="#3949DB"/>
+</linearGradient>
+<clipPath id="clip0">
+<rect width="34" height="34" fill="white" transform="translate(54 49)"/>
+</clipPath>
+</defs>
+</svg>

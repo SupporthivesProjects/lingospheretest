@@ -1,0 +1,77 @@
+/bootstrap/compiled.php
+.env.*.php
+.env.php
+/node_modules
+/public/hot
+/public/storage
+/storage/*.key
+/vendor
+/.idea
+/.vscode
+/.vagrant
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+.DS_Store
+.idea/
+
+updates/
+/public/uploads/
+composer.lock
+*.lock
+
+# Laravel
+/vendor
+/node_modules
+/public/hot
+/public/storage
+/storage/*.key
+/storage/app/public
+/storage/debugbar
+
+# Environment files
+.env
+.env.backup
+.env.production
+.env.local
+
+# Logs
+/storage/logs/*
+*.log
+
+# Cache
+/bootstrap/cache/*
+!/bootstrap/cache/.gitignore
+
+# Composer
+composer.phar
+
+# NPM
+npm-debug.log
+yarn-error.log
+pnpm-debug.log
+
+# IDEs
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# PHPUnit
+.phpunit.result.cache
+
+# Laravel Pint
+.pint.cache
+
+# Coverage
+coverage/
+.phpunit.cache/
+
+# Misc
+*.swp
+*.swo

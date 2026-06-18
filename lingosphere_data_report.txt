@@ -1,0 +1,166 @@
+
+[FOUND] - Domain : webdesign4beginners.com - Keyword: webdesign4beginners
+File   : /home/lingosphere/app/dbbackup.sql
+File   : /home/lingosphere/app/learnsupport_Lingosphere.sql
+File   : /home/lingosphere/app/linguizt_linguizt.sql
+File   : /home/lingosphere/app/jan25dbbackup.sql
+
+================================================================================
+
+[FOUND] - Domain : keepinghealthyathome.com - Keyword: Keepinghealthyathome
+File   : /home/lingosphere/app/dbbackup.sql
+File   : /home/lingosphere/app/jan25dbbackup.sql
+
+================================================================================
+
+[FOUND] - Domain : designasite101.com - Keyword: designasite101
+File   : /home/lingosphere/app/dbbackup.sql
+File   : /home/lingosphere/app/learnsupport_Lingosphere.sql
+File   : /home/lingosphere/app/linguizt_linguizt.sql
+File   : /home/lingosphere/app/jan25dbbackup.sql
+
+================================================================================
+
+[FOUND] - Domain : devstuffnow.com - Keyword: devstuffnow.com
+File   : /home/lingosphere/app/dbbackup.sql
+File   : /home/lingosphere/app/learnsupport_Lingosphere.sql
+File   : /home/lingosphere/app/linguizt_linguizt.sql
+File   : /home/lingosphere/app/jan25dbbackup.sql
+
+================================================================================
+
+[FOUND] - Domain : sitedevelophub.com - Keyword: sitedevelophub
+File   : /home/lingosphere/app/dbbackup.sql
+File   : /home/lingosphere/app/learnsupport_Lingosphere.sql
+File   : /home/lingosphere/app/linguizt_linguizt.sql
+File   : /home/lingosphere/app/jan25dbbackup.sql
+
+================================================================================
+
+[FOUND] - Domain : bluelitebranding.com - Keyword: Bluelitebranding
+File   : /home/lingosphere/app/dbbackup.sql
+File   : /home/lingosphere/app/learnsupport_Lingosphere.sql
+File   : /home/lingosphere/app/linguizt_linguizt.sql
+File   : /home/lingosphere/app/jan25dbbackup.sql
+
+================================================================================
+
+[FOUND] - Domain : mysticah.com - Keyword: mysticah
+File   : /home/lingosphere/app/dbbackup.sql
+File   : /home/lingosphere/app/jan25dbbackup.sql
+
+================================================================================
+
+[FOUND] - Domain : xenolai.com - Keyword: xenolai.com
+File   : /home/lingosphere/app/dbbackup.sql
+File   : /home/lingosphere/app/learnsupport_Lingosphere.sql
+File   : /home/lingosphere/app/linguizt_linguizt.sql
+File   : /home/lingosphere/app/jan25dbbackup.sql
+
+================================================================================
+
+[FOUND] - Domain : eazymarketer.com - Keyword: eazymarketer
+File   : /home/lingosphere/app/dbbackup.sql
+File   : /home/lingosphere/app/learnsupport_Lingosphere.sql
+File   : /home/lingosphere/app/linguizt_linguizt.sql
+File   : /home/lingosphere/app/jan25dbbackup.sql
+
+================================================================================
+
+[FOUND] - Domain : advanceurbusiness.com - Keyword: Advanceurbusiness
+File   : /home/lingosphere/app/dbbackup.sql
+File   : /home/lingosphere/app/jan25dbbackup.sql
+
+================================================================================
+
+[FOUND] - Domain : eagleienterprises.com - Keyword: Eagleienterprises
+File   : /home/lingosphere/app/dbbackup.sql
+File   : /home/lingosphere/app/learnsupport_Lingosphere.sql
+File   : /home/lingosphere/app/linguizt_linguizt.sql
+File   : /home/lingosphere/app/jan25dbbackup.sql
+
+================================================================================
+
+[FOUND] - Domain : finelinecontent.com - Keyword: finelinecontent
+File   : /home/lingosphere/app/dbbackup.sql
+File   : /home/lingosphere/app/learnsupport_Lingosphere.sql
+File   : /home/lingosphere/app/linguizt_linguizt.sql
+File   : /home/lingosphere/app/jan25dbbackup.sql
+
+================================================================================
+
+[FOUND] - Domain : greenpandasolutions.com - Keyword: Greenpandasolutions
+File   : /home/lingosphere/app/dbbackup.sql
+File   : /home/lingosphere/app/learnsupport_Lingosphere.sql
+File   : /home/lingosphere/app/linguizt_linguizt.sql
+File   : /home/lingosphere/app/jan25dbbackup.sql
+
+================================================================================
+
+[FOUND] - Domain : thedevilzz.com - Keyword: thedevilzz.com
+File   : /home/lingosphere/app/dbbackup.sql
+File   : /home/lingosphere/app/learnsupport_Lingosphere.sql
+File   : /home/lingosphere/app/jan25dbbackup.sql
+
+================================================================================
+
+[FOUND] - Domain : arrowservices.co - Keyword: arrowservices
+File   : /home/lingosphere/app/dbbackup.sql
+File   : /home/lingosphere/app/learnsupport_Lingosphere.sql
+File   : /home/lingosphere/app/linguizt_linguizt.sql
+File   : /home/lingosphere/app/jan25dbbackup.sql
+
+================================================================================
+
+[FOUND] - Domain : mmogalaxy.co - Keyword: mmogalaxy
+File   : /home/lingosphere/app/dbbackup.sql
+File   : /home/lingosphere/app/learnsupport_Lingosphere.sql
+File   : /home/lingosphere/app/linguizt_linguizt.sql
+File   : /home/lingosphere/app/jan25dbbackup.sql
+
+================================================================================
+
+[FOUND] - Domain : thedevkrew.com - Keyword: Thedevkrew
+File   : /home/lingosphere/app/dbbackup.sql
+File   : /home/lingosphere/app/learnsupport_Lingosphere.sql
+File   : /home/lingosphere/app/linguizt_linguizt.sql
+File   : /home/lingosphere/app/jan25dbbackup.sql
+
+================================================================================
+
+[FOUND] - Domain : brandbeknown.com - Keyword: brandbeknown
+File   : /home/lingosphere/app/dbbackup.sql
+File   : /home/lingosphere/app/learnsupport_Lingosphere.sql
+File   : /home/lingosphere/app/linguizt_linguizt.sql
+File   : /home/lingosphere/app/jan25dbbackup.sql
+
+================================================================================
+
+[FOUND] - Domain : furbarsolution.co - Keyword: Furbarsolution
+File   : /home/lingosphere/app/dbbackup.sql
+File   : /home/lingosphere/app/learnsupport_Lingosphere.sql
+File   : /home/lingosphere/app/linguizt_linguizt.sql
+File   : /home/lingosphere/app/jan25dbbackup.sql
+
+================================================================================
+
+[FOUND] - Domain : webwhisperers.co - Keyword: webwhisperers
+File   : /home/lingosphere/app/dbbackup.sql
+
+================================================================================
+
+[FOUND] - Domain : brandsparkz.co - Keyword: Brandsparkz
+File   : /home/lingosphere/app/dbbackup.sql
+File   : /home/lingosphere/app/jan25dbbackup.sql
+
+================================================================================
+
+[FOUND] - Domain : thetranslatortongue.com - Keyword: thetranslatortongue.com
+File   : /home/lingosphere/app/linguizt_linguizt.sql
+
+================================================================================
+
+[FOUND] - Domain : linguizt.com - Keyword: linguizt
+File   : /home/lingosphere/app/linguizt_linguizt.sql
+
+================================================================================

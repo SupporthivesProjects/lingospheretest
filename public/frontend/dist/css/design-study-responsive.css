@@ -1,0 +1,581 @@
+@media only screen and (max-width: 600px){
+    .home-hero {
+        background: url(../img/home-banner.png) no-repeat center center;
+        background-size: cover;
+    }
+    .home-content{
+        padding: 43px 30px;
+    }
+    .home-hero:before{
+        content: '';
+        background: url(../img/home-be-img.png);
+        position: absolute;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 220px;
+        top: 0rem;
+        z-index: 1;
+        right: 0px;
+        width: 241px;
+        display:none;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .account-menu-collec {
+        flex: 0 0 100%;
+        max-width: 100%;
+        width: 100%;
+        overflow-x: scroll;
+        padding-bottom: 5px;
+        height: 55px;
+        overflow-y: hidden;
+        padding:0px 0px;
+    }
+    .account-menu {
+        font-family: Circular Std;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 25px;
+        color: #FFFFFF;
+        min-width:190px;
+        width:auto;
+        color: #000;
+        background: #fff;
+        height: 50px;
+        padding: 12px 22px;
+        text-align: center;
+    }
+    .account-menu-collec .active{
+        background: #F48825;
+        color:#FFFFFF !important;;
+    }
+    .account-menu-collec .all-btn-account {
+        padding: 0px 0px;
+    }
+    .para-white {
+        font-family: Circular Std;
+        font-style: normal;
+        font-weight: 450;
+        font-size: 16px;
+        line-height: 160%;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    .account-menu-collec {
+        background:transparent;
+    }
+    .account-head-mo{
+        font-family: Circular Std;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 140%;
+        color: #FFFFFF;
+        position: relative;
+        z-index: 1;
+        bottom: 18px;
+    }
+    .account-head{
+        font-family: Circular Std;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 150%;
+        /* identical to box height, or 45px */
+        color: #FFFFFF;
+
+    }
+    .account-sub-head {
+        font-family: Circular Std;
+        font-style: normal;
+        font-weight: 450;
+        font-size: 20px;
+        line-height: 25px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+}
+@media only screen and (max-width: 600px){
+    .about-apge .h3-white{
+        font-family: Circular Std;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 26px;
+        line-height: 40px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    .we-creat-content .h4-white-bold{
+        font-family: Circular Std;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 51px;
+        color: #FFFFFF;
+    }
+    .about-content-mo-1 .para-grey-op, .about-content-mo-2 .para-grey-op, .about-content-mo-3 .para-grey-op, .about-content-mo-4 .para-grey-op{
+        font-family: Circular Std;
+        font-style: normal;
+        font-weight: 450;
+        font-size: 16px;
+        line-height: 28px;
+        color: #797A7A;
+        opacity: 0.8;
+    
+    }
+}
+@media only screen and (max-width: 600px){
+    .we-create-exper{
+        background: #000103;
+        padding-top:0px;
+    }
+    .slide-content-bg {
+        background: #1E284B;
+        padding: 32px 32px 37px 37px;
+        max-height: 388px;
+    }
+    .slider-bg .carousel-indicators {
+        position: absolute;
+        right: 0;
+        bottom: -4rem;
+        left: 0;
+        z-index: 15;
+        display: flex;
+        justify-content: center;
+        padding-left: 0;
+        margin-right: 15%;
+        margin-left: 15%;
+        list-style: none;
+    }
+   .tranding-resource .para-grey{
+        font-family: Circular Std;
+        font-style: normal;
+        font-weight: 450;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        color: #797A7A;
+    }
+    .product-content .pro-name{
+        font-family: Circular Std;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 25px;
+        display: flex;
+        align-items: center;
+        text-transform: capitalize;
+        color: #000958;
+
+    }
+    .product-price-box .pro-price{
+        font-family: Circular Std;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 23px;
+        text-transform: capitalize;
+        color: #F48825;
+    }
+    .product-price-box .btn-green {
+        font-family: Circular Std;
+        font-style: normal;
+        font-weight: 450;
+        font-size: 14px;
+        line-height: 18px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        text-transform: capitalize;
+        color: #FFFFFF;
+    }
+    .product-content {
+        height: 82px;
+        max-height: 130px;
+    }
+    .bespoke-design {
+        background: #F1F6F8;
+        padding: 29px 0px;
+        max-height: 400px;
+        height: 369px;
+    }
+    .btn-pos {
+        min-height: 75px;
+        position: absolute;
+        right: 38%;
+        bottom: 1.5rem;
+        width: 103px;
+        max-width: 100px;
+        min-width: 107px;
+        background: #F48825 !important;
+        height: 20px;
+    }
+    .digital-design {
+        background: #F1F6F8;
+        padding: 33px 0px;
+        height: 400px;
+    }
+    .bespoke-div:after {
+        content: "";
+        background: url(../img/digital-design-img.svg) no-repeat;
+        background-size: contain;
+        position: absolute;
+        bottom: 2rem;
+        left: 0;
+        width: 105px;
+        height: 112px;
+        display:none;
+    }
+    .grow-your h2 {
+        font-family: Circular Std;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 32px;
+        line-height: 40px;
+        background-image: linear-gradient(100.81deg, #7456AB -49.04%, #F48825 153.49%);
+        background-size: 100%;
+        background-repeat: repeat;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        padding: 0px 121px 0px 0px;
+    }
+    
+  .bespoke-div:before {
+        content: "";
+        background: url(../img/digital-design-img.svg) no-repeat;
+        background-size: contain;
+        position: absolute;
+        right: 0rem;
+        top: 4rem;
+        width: 127px;
+        height: 116px;
+    }
+   .grow-right .para-0 {
+        font-family: Circular Std;
+        font-style: normal;
+        font-weight: 450;
+        font-size: 16px;
+        line-height: 26px;
+        color: #797A7A;
+    }
+    .slider-bg {
+        background: url(../img/slider-bg.png) no-repeat;
+        background-size: cover;
+        background-position: center center;
+        padding: 0px 0px 60px 0px;
+    }
+    
+    .slide-content-bg .h5-white{
+        font-family: Circular Std;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 26px;
+        line-height: 140%;
+        text-transform: uppercase;
+        color: #FFFFFF;
+
+    }
+
+
+}
+@media only screen and (max-width: 600px){
+    .regi-left-input-box{
+        padding: 0px 0px 0px 0px;
+    }
+    .login-left-input-box {
+        padding: 34px 0px;
+    }
+    
+    .h4-white-bold{
+        font-family: Circular Std;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 30px;
+        color: #FFFFFF;
+    }
+    
+    
+    .check-pro-detsils .h4-white-bold{
+        font-family: Circular Std;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 30px;
+        color: #FFFFFF;
+    }
+    .check-pro-detsils img{
+        max-width:120px;
+        width:115px;
+        max-height:35px;
+        height:33px;
+    }
+    .choose-category{
+        font-family: Circular Std;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;
+        text-transform: capitalize;
+        color: #FFFFFF;
+
+    }
+    .choose-product{
+        font-family: Circular Std;
+        font-style: normal;
+        font-weight: 450;
+        font-size: 16px;
+        line-height: 20px;
+        text-transform: capitalize;
+        color: #FFFFFF;
+        opacity: 0.6;
+    }
+    .price-box .pro-price{
+        font-family: Circular Std;
+        font-style: normal;
+        font-weight: 450;
+        font-size: 16px;
+        line-height: 20px;
+        display: flex;
+        align-items: center;
+        text-align: right;
+        text-transform: capitalize;
+        color: #FFFFFF;
+        opacity: 0.6;
+        float:right;
+        margin-top: 17px;
+    }
+    .total-amount{
+        font-family: Circular Std;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;
+        text-transform: capitalize;
+        color: #FFFFFF;
+    }
+    .total-price {
+        font-family: Circular Std;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        display: flex;
+        align-items: center;
+        text-align: right;
+        text-transform: capitalize;
+        color: #FFFFFF;
+       
+
+    }
+   .row-bg{
+       background:none;
+   }
+   
+    .row-bg:not(.no-gutters)>[class*=col-6]:nth-child(even) {
+        padding-left: 1rem;
+    }
+    
+    .primary-bg-col-mo {
+        background: #1E284B;
+    }
+    .pro-border-bottom{
+        opacity: 0.2;
+        border-bottom: 1px solid #FFFFFF;
+    }
+    
+    .row-bg-img{
+        background: url(../img/cart-overview-mo.png) no-repeat;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        z-index: 1;
+    }
+    .product-name-price{
+        border-bottom:1px solid #FFFFFF;
+    }
+    .pro-odd, .price-box{
+        border-bottom:1px solid #FFFFFF;
+        margin: 8px 0px;
+    }
+    
+   .product-row .break-div {
+        height: 0px;
+        width: 100%;
+    }
+    
+    .payment-content .h4-white-bold {
+        font-family: Circular Std;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 30px;
+        color: #FFFFFF;
+    }
+    
+    .product-row .choose-product {
+        margin-top: 5px;
+    }
+    .add-coupon .form-control-lg {
+        height: calc(3.625rem + 2px);
+        padding: .875rem .875rem;
+        font-size: 13px;
+        line-height: 1.5;
+        border: 1px solid #8F8F8F;
+        box-sizing: border-box;
+        border-radius: 0px !important;
+        background: #3e4770;
+        width: 100%;
+        font-family: Circular Std;
+        font-style: normal;
+        font-weight: 450;
+        font-size: 16px;
+        line-height: 20px;
+        color: #FFFFFF !important;
+    }
+    .add-coupon input::-webkit-input-placeholder {
+        font-family: Circular Std;
+        font-style: normal;
+        font-weight: 450;
+        font-size: 16px;
+        line-height: 20px;
+        color: #FFFFFF;
+    }
+    .input-div input {
+        font-family: Circular Std;
+        font-style: normal;
+        font-weight: 450;
+        font-size: 16px;
+        line-height: 20px;
+        color: #FFFFFF !important;
+    }
+    .add-coupon input:-moz-placeholder{
+        font-family: Circular Std;
+        font-style: normal;
+        font-weight: 450;
+        font-size: 16px;
+        line-height: 20px;
+        color: #FFFFFF;
+    }
+    .add-coupon input:-ms-input-placeholder{
+        font-family: Circular Std;
+        font-style: normal;
+        font-weight: 450;
+        font-size: 16px;
+        line-height: 20px;
+        color: #FFFFFF;
+    }
+    
+}
+
+@media only screen and (max-width: 600px){
+    .title-content-head {
+        padding: 45px 15px 4px;
+        display: block;
+        margin: auto;
+        width: 100%;
+    }
+    .home-content-para .para-white-op{
+        font-family: Circular Std;
+        font-style: normal;
+        font-weight: 450;
+        font-size: 16px;
+        line-height: 30px;
+        color: #FFFFFF;
+        opacity: 0.6;
+    }
+    .bespoke-design .h3-black{
+        font-family: Circular Std;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 32px;
+        line-height: 40px;
+        text-align: center;
+        text-transform: capitalize;
+        color: #12394A;
+
+    }
+    .digital-design .h3-black{
+        font-family: Circular Std;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 32px;
+        line-height: 40px;
+        text-align: center;
+        text-transform: capitalize;
+        color: #12394A;
+
+    }
+    .digital-design .para-grey, .bespoke-design .para-grey{
+        font-family: Circular Std;
+        font-style: normal;
+        font-weight: 450;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        color: #797A7A;
+
+    }
+}
+@media only screen and (max-width: 600px){
+    .terms-content-head {
+        padding: 75px 13px 4px;
+        display: block;
+        margin: auto;
+        width: 100%;
+    }
+    .title-content-head .h3-white{
+        font-family: Circular Std;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px !important;
+        line-height: 40px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+}
+ @media only screen and (max-width: 600px){
+       .colorful-lady {
+            display:none;
+        } 
+        .angle-topright-img {
+            display:none;
+        }
+        
+    .angle-bottomleft-img {
+            display:none;
+        }
+    
+    .colorful-lady {
+            
+            display:none;
+        }
+    .four-images-sec:before{
+        content: '';
+        background: url(../img/about-be-img.png);
+        position: absolute;
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 501px;
+        height: 500px;
+        top: -15rem;
+        right: -14rem;
+        transform: rotateX(51deg);
+         display:none;
+    }
+    .four-images-sec:after{
+        content: '';
+        background: url(../img/about-af-img.png);
+        position: absolute;
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 371px;
+        height: 350px;
+        bottom: -3rem;
+        left: 0rem;
+        z-index: auto;
+         display:none;
+    }
+ }

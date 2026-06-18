@@ -1,0 +1,8 @@
+<svg width="65" height="40" viewBox="0 0 65 40" fill="none" xmlns="http://www.w3.org/2000/svg" style="">
+<path d="M8 5C8 2.79086 9.79086 1 12 1H54C56.2091 1 58 2.79086 58 5V33H8V5Z" stroke="#E0E0E0" class="fBwbkNys_0"></path>
+<path d="M11 4H55V30H11V4Z" stroke="#E0E0E0" class="fBwbkNys_1"></path>
+<path d="M61 33C62.6569 33 64 34.3431 64 36V36C64 37.6569 62.6569 39 61 39L4 39C2.34315 39 1 37.6569 1 36V36C1 34.3431 2.34315 33 4 33L61 33Z" stroke="#F6F7FB" class="fBwbkNys_2"></path>
+<path width="36" height="4" stroke="#F6F7FB" d="M15.5 8.5 L51.5 8.5 L51.5 12.5 L15.5 12.5 Z" class="fBwbkNys_3"></path>
+<path width="14" height="11" stroke="#F6F7FB" d="M15.5 15.5 L29.5 15.5 L29.5 26.5 L15.5 26.5 Z" class="fBwbkNys_4"></path>
+<path width="19" height="11" stroke="#F6F7FB" d="M32.5 15.5 L51.5 15.5 L51.5 26.5 L32.5 26.5 Z" class="fBwbkNys_5"></path>
+<style data-made-with="vivus-instant">.fBwbkNys_0{stroke-dasharray:161 163;stroke-dashoffset:162;animation:fBwbkNys_draw 2000ms linear 0ms forwards;}.fBwbkNys_1{stroke-dasharray:140 142;stroke-dashoffset:141;animation:fBwbkNys_draw 2000ms linear 200ms forwards;}.fBwbkNys_2{stroke-dasharray:133 135;stroke-dashoffset:134;animation:fBwbkNys_draw 2000ms linear 400ms forwards;}.fBwbkNys_3{stroke-dasharray:80 82;stroke-dashoffset:81;animation:fBwbkNys_draw 2000ms linear 600ms forwards;}.fBwbkNys_4{stroke-dasharray:50 52;stroke-dashoffset:51;animation:fBwbkNys_draw 2000ms linear 800ms forwards;}.fBwbkNys_5{stroke-dasharray:60 62;stroke-dashoffset:61;animation:fBwbkNys_draw 2000ms linear 1000ms forwards;}@keyframes fBwbkNys_draw{100%{stroke-dashoffset:0;}}@keyframes fBwbkNys_fade{0%{stroke-opacity:1;}94.44444444444444%{stroke-opacity:1;}100%{stroke-opacity:0;}}</style></svg>

@@ -1,0 +1,254 @@
+.accountdetailscreen {
+    width: 100%;
+    /*height: 100%;*/
+    left: 0;
+    padding-top: 30px;
+    background: #F6F7FB;
+}
+
+.accountdetail-card {
+    background: #FFFFFF;
+    mix-blend-mode: normal;
+    border: 1px solid #3949DB;
+    box-sizing: border-box;
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(70, 72, 219, 0.25);
+    -moz-box-shadow: 0 0 15px rgba(70, 72, 219, 0.25);
+    -webkit-box-shadow: 0 0 15px rgba(70, 72, 219, 0.25);
+    -o-box-shadow: 0 0 15px rgba(70, 72, 219, 0.25);
+}
+
+.accountsidebar {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.3px;
+    color: #3949DB;
+    padding: 15px !important;
+}
+.accoundetail-padding {
+    padding: 45px;
+}
+
+@media only screen and (max-width: 600px) {
+    .accoundetail-padding {
+        padding: 0px 10px 45px 10px;
+    }
+}
+
+#accountnav .nav-link:focus, .nav-link:hover {
+    color: #3949DB;
+}
+
+#accountnav .active {
+    color: #3949DB;
+    opacity: 0.5;
+}
+
+.logout {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.3px;
+    color: #8C8C8C;
+    padding: 15px !important;
+}
+
+.accoundetail-text {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 47px;
+    background: linear-gradient(180deg, rgba(57,73,219,1) 0%, rgba(200,59,220,1) 90%, rgba(57,73,219,1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#accountdetailform .accountdetail-label {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 150%;
+    color: #1D1D1D;
+}
+
+.accountdetailbutton {
+    background: #3949DB;
+    border-radius: 41px;
+    color: #fff;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 150%;
+    padding: 10px 10px 10px 10px;
+    border: 1px solid transparent;
+    text-align: center;
+    letter-spacing: 0.3px;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.dashboard-padding {
+    padding: 150px 45px 45px 45px;
+}
+
+@media only screen and (max-width: 600px) {
+    .dashboard-padding {
+        padding: 0px 10px 45px 10px;
+        text-align: center !important;
+    }
+}
+
+.account-info {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 150%;
+    color: #1D1D1D;
+}
+
+.order-table {
+    background: #FFFFFF;
+    mix-blend-mode: normal;
+    border: 4px solid #FFFFFF;
+    padding: 0px 20px 20px 20px;
+    box-sizing: border-box;
+    border-radius: 21px;
+    box-shadow: 0 0 15px rgba(70, 72, 219, 0.25);
+    -moz-box-shadow: 0 0 15px rgba(70, 72, 219, 0.25);
+    -webkit-box-shadow: 0 0 15px rgba(70, 72, 219, 0.25);
+    -o-box-shadow: 0 0 15px rgba(70, 72, 219, 0.25);
+}
+
+.order-padding {
+    padding: 130px 45px 45px 45px;
+}
+
+@media only screen and (max-width: 600px) {
+    .order-padding {
+        padding: 0px 10px 45px 10px;
+    }
+}
+
+#ordertable thead th {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.3px;
+    color: #1D1D1D;
+    border-bottom: 1px solid #dcdef9;
+}
+
+#ordertable td {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 150%;
+    color: #1D1D1D;
+    padding: 25px 0px 25px 17px;
+    border-top: 1px solid #dcdef9;
+}
+.angle {
+    margin-left: 20px;
+}
+
+.address-padding {
+    padding: 60px 0px 45px 45px;
+}
+
+@media only screen and (max-width: 600px) {
+    .address-padding {
+        padding: 0px 10px 45px 10px;
+    }
+}
+
+.billing-address {
+    background: #FFFFFF;
+    mix-blend-mode: normal;
+    border: 4px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 25px;
+    box-shadow: 0 0 15px rgba(70, 72, 219, 0.25);
+    -moz-box-shadow: 0 0 15px rgba(70, 72, 219, 0.25);
+    -webkit-box-shadow: 0 0 15px rgba(70, 72, 219, 0.25);
+    -o-box-shadow: 0 0 15px rgba(70, 72, 219, 0.25);
+}
+
+.shipping-address {
+    background: #FFFFFF;
+    mix-blend-mode: normal;
+    border: 4px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 25px;
+    box-shadow: 0 0 15px rgba(70, 72, 219, 0.25);
+    -moz-box-shadow: 0 0 15px rgba(70, 72, 219, 0.25);
+    -webkit-box-shadow: 0 0 15px rgba(70, 72, 219, 0.25);
+    -o-box-shadow: 0 0 15px rgba(70, 72, 219, 0.25);
+}
+
+.address-title {
+    margin-bottom: 45px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    color: #1D1D1D;
+}
+
+.billing-heading {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 0px;
+    line-height: 18px;
+    letter-spacing: 0.3px;
+    color: #1D1D1D;
+}
+
+@media only screen and (max-width: 600px) {
+    .address-padding {
+        padding: 0px 10px 45px 10px;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .col-sm-6 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .col-xs-6 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+.line {
+    border-top: 1px solid #dcdef9;
+}
+
+.address-value {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 150%;
+    color: #1D1D1D;
+}
+
+.company-name {
+    margin-bottom: 30px;
+}

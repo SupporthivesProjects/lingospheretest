@@ -1,0 +1,1862 @@
+@media only screen and (max-width: 600px) {
+	.h1-white{
+		font-family: 'Helvetica Now Display Bold';
+		font-style: normal;
+		font-weight: 800;
+		font-size: 30px;
+		line-height: 44px;
+		text-align: center;
+		text-transform: capitalize;
+		color: #F2F2F2;
+
+	}
+	.h2-white{
+		font-family: 'Helvetica Now Display Bold';
+		font-style: normal;
+		font-weight: bold;
+		font-size: 28px;
+		line-height: 41px;
+		letter-spacing: 0.03em;
+		text-transform: capitalize;
+		color: #F2F2F2;
+	}
+	.h1-black{
+		font-family: 'Helvetica Now Display Bold';
+		font-style: normal;
+		font-weight: 800;
+		font-size: 30px;
+		line-height: 44px;
+		text-align: center;
+		text-transform: capitalize;
+		color: #1B2431;
+
+	}
+	.h2-black{
+		font-family: 'Helvetica Now Display Bold';
+		font-style: normal;
+		font-weight: bold;
+		font-size: 28px;
+		line-height: 41px;
+		letter-spacing: 0.03em;
+		text-transform: capitalize;
+		color: #1B2431;
+	}
+	.h3-white{
+		font-family: 'Helvetica Now Display Bold';
+		font-style: normal;
+		font-weight: bold;
+		font-size: 16px;
+		line-height: 23px;
+		align-items: center;
+		text-align: center;
+	    letter-spacing: 0.09em;
+		text-transform: capitalize;
+		color: #F2F2F2;
+	}
+	.h3-black{
+		font-family: 'Helvetica Now Display Bold';
+		font-style: normal;
+		font-weight: bold;
+		font-size: 16px;
+		line-height: 23px;
+		align-items: center;
+		text-align: center;
+	    letter-spacing: 0.09em;
+		text-transform: capitalize;
+		color: #1B2431;
+	}
+	.h4-black{
+	    font-family: 'Helvetica Now Display ';
+	    font-style: normal;
+	    font-weight: normal;
+	    font-size: 16x;
+	    line-height: 24px;
+	    letter-spacing: 0.25em;
+	    text-transform: uppercase;
+	    color: #1B2431;
+
+	}
+	.h4-tag{
+	  font-family: 'Helvetica Now Display';
+	  font-style: normal;
+	  font-weight: normal;
+	  font-size: 16px;
+	  line-height: 24px;
+	  letter-spacing: 0.25em;
+	  text-transform: uppercase;
+	  color: #1B2431;
+
+	}
+	.h5-black{
+		font-family: 'Helvetica Now Display Bold';
+		font-style: normal;
+		font-weight: bold;
+		font-size: 16px;
+		line-height: 24px;
+		letter-spacing: 0.09em;
+		text-transform: capitalize;
+		color: #1B2431;
+	}
+	.tr-head{
+	  font-family: 'Helvetica Now Display Bold';
+	  font-style: normal;
+	  font-weight: bold;
+	  font-size: 16px;
+	  line-height: 23px;
+	  text-align: center;
+	  letter-spacing: 0.09em;
+	  text-transform: capitalize;
+	  color: #1B2431;
+	}
+	.Swipe-left-right{
+	  font-family: Open Sans;
+	  font-style: normal;
+	  font-weight: bold;
+	  font-size: 14px;
+	  line-height: 19px;
+	  text-align: center;
+	  color: #044B5A;
+
+	}
+	.p1-black{
+	    font-family: 'Helvetica Now Display light';
+	    font-style: normal;
+	    font-weight: 500;
+	    font-size: 14px;
+	    line-height: 19px;
+	    color: #1B2431;
+	}
+	.p2-white{
+	  font-family: Open Sans;
+	  font-style: normal;
+	  font-weight: normal;
+	  font-size: 16px;
+	  line-height: 22px;
+	  text-align: center;
+	  color: #FFFFFF;
+	}
+	.faq-head{
+	  font-family: 'Helvetica Now Display Bold';
+	  font-style: normal;
+	  font-weight: bold;
+	  font-size: 16px;
+	  line-height: 24px;
+	  letter-spacing: 0.09em;
+	  text-transform: capitalize;
+	  color: #FFFFFF;
+
+	}
+	.faq-para{
+	  font-family: Open Sans;
+	  font-style: normal;
+	  font-weight: normal;
+	  font-size: 14px;
+	  line-height: 19px;
+	  color: #FFFFFF;
+
+	}
+	.footer-a{
+	  font-family: Open Sans;
+	  font-style: normal;
+	  font-weight: normal;
+	  font-size: 16px;
+	  line-height: 22px;
+	  color: #F2F2F2;
+
+	}
+	.footer-bottom-a{
+	  font-family: Open Sans;
+	  font-style: normal;
+	  font-weight: normal;
+	  font-size: 13px;
+	  line-height: 18px;
+	  align-items: center;
+	  color: #999999;
+	}
+	.footer-head{
+	    font-family: 'Helvetica Now Display';
+	    font-style: normal;
+	    font-weight: normal;
+	    font-size: 20px;
+	    line-height: 29px;
+	    color: #F2F2F2;
+	}
+
+	section {
+		position: relative;
+		overflow: hidden;
+	}
+}
+
+
+@media only screen and (max-width: 600px) {
+	.mobile-head {
+		height: 95px;
+		background: #F2F2F2;
+		z-index: 99 !important;
+		padding: 0 15px;
+	}
+	.mobile-slide-menu .mobile-slide-head {
+		background: #F2F2F2 !important;
+		position: absolute;
+		width: 100%;
+		height: 109px;
+		padding: 25px 15px;
+	}
+	#webmobile-menu{
+		clear: both;
+		position: absolute;
+		top: 101px;
+		padding: 25px;
+		width: 100%;
+	}
+	#webmobile-menu .navbar-nav li a {
+		font-family:'Helvetica Now Display Bold';
+		font-style: normal;
+		font-weight: bold;
+		font-size: 28px;
+		line-height: 54px;
+		letter-spacing: 0.03em;
+		text-transform: capitalize;
+		color: #1B2431 !important;
+	}
+	#webmobile-menu .form-select{
+		font-family:'Helvetica Now Display Bold';
+		font-style: normal;
+		font-weight: bold;
+		font-size: 28px;
+		line-height: 41px;
+		letter-spacing: 0.03em;
+		text-transform: capitalize;
+		color: #1B2431;
+		border:0px;
+		padding-left: 0px;
+		outline: none !important;
+	}
+	#webmobile-menu .form-select:focus{
+		outline: none !important;
+	}
+	
+	#webmobile-menu .nav-item{
+		height: 72px;
+	}
+	#webmobile-menu .border-bottom{
+		border-bottom: 1px solid #999999!important;
+	}
+	
+}
+/* --------------------------home-page-------------------------------------------*/
+@media only screen and (max-width: 600px) {
+    .marL{
+        margin-left:34px;
+    }
+    .top-hero-content-mo .top-hero-para {
+        font-family: 'Helvetica Now Display Bold '!important;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px !important;
+        line-height: 30px !important;
+        letter-spacing: 0.09em;
+        text-transform: capitalize;
+        color: #1B2431;
+        opacity: 0.7;
+    }
+	.p-tag {
+		font-family: 'Helvetica Now Display';
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		line-height: 24px;
+		letter-spacing: 0.25em;
+		text-transform: uppercase;
+		color: #1B2431;
+	}
+	.home-how-it-content {
+		background: #F7F7F7;
+		padding: 2rem 0;
+	}
+	
+	.dynamic-tab-sec{
+		margin-top: 29px;
+	}
+		
+	.fea-box {
+		background: #1B2431;
+		padding: 53px 30px;
+		width: 100%;
+		display: block;
+		margin-bottom: 28px;
+	}
+	.tab-panel{
+		padding: 20px 20px;
+	}
+	.how-it-works-content .our-process {
+		font-family: Helvetica Now Display;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		line-height: 24px;
+		letter-spacing: 0.25em;
+		text-transform: uppercase;
+		color: #1B2431;
+	}
+	.tab-panel h3{
+		font-family: 'Helvetica Now Display Bold';
+		font-style: normal;
+		font-weight: bold;
+		font-size: 16px;
+		line-height: 24px;
+		display: flex;
+		align-items: center;
+		text-align: center;
+		letter-spacing: 0.09em;
+		text-transform: capitalize;
+		color: #1B2431;
+		margin-bottom: 12px;
+	}
+	.tab-panel p{
+		font-family: Open Sans;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 14px;
+		line-height: 19px;
+		text-align: center;
+		text-transform: capitalize;
+		color: #1B2431;
+		margin-bottom: 15px;
+	}
+	.dynamic-tab-sec .nav-link {
+		font-family: 'Helvetica Now Display Bold';
+		font-style: normal;
+		font-weight: bold;
+		font-size: 16px;
+		line-height: 24px;
+		align-items: center;
+		letter-spacing: 0.09em;
+		text-transform: capitalize;
+		color: #1B2431;
+		text-decoration: none;
+		display: block;
+		margin: auto;
+		width: 335px;
+		height: 78px;
+		background: #fff;
+    	border: 0px;
+	}
+	.dynamic-tab-sec .nav-link.active {
+		font-family: 'Helvetica Now Display Bold';
+		font-style: normal;
+		font-weight: bold;
+		font-size: 16px;
+		line-height: 24px;
+		align-items: center;
+		letter-spacing: 0.09em;
+		text-transform: capitalize;
+		color: #F2F2F2 !important;
+		text-decoration: none;
+		display: block;
+		margin: auto;
+		width: 335px;
+		height: 78px;
+		background: #1a4b5b;
+		border: 0px;
+	}
+	.p-servies {
+        font-family: 'Helvetica Now Display-light' !important;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px  !important;
+        line-height: 24px  !important;
+        letter-spacing: 0.25em;
+        text-transform: uppercase;
+        color: #1B2431;
+
+    }
+    .fea-box h5 {
+        font-family: 'Helvetica Now Display Bold';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 24px;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.09em;
+        text-transform: capitalize;
+        color: #F2F2F2;
+    }
+    .fea-box p {
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 20px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #F2F2F2;
+    }
+
+
+	
+	.explore-page .p-tag {
+		font-family: 'Helvetica Now Display light';
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		line-height: 24px;
+		letter-spacing: 0.25em;
+		text-transform: uppercase;
+		color: #1B2431;
+	}
+	.explore-page .border-devider {
+		background: #044B5A;
+		height: 2px;
+		width: 339px !important;
+		margin-top: -24px;
+		margin-bottom: 20px;
+		display: block;
+	}
+	.packages-content .btn{
+		margin-bottom: 30px;
+		margin-top: 15px;
+	}
+	.servies-sec{
+		padding-top: 38px;
+	}
+	.features-section{
+		padding-top: 24px;
+	}
+	.textimonials-head span {
+		font-family: 'Helvetica Now Display';
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		line-height: 24px;
+		letter-spacing: 0.25em;
+		text-transform: uppercase;
+		color: #F2F2F2;
+	}
+	.owl-prev{
+		background: transparent;
+		border: 0;
+		position: absolute;
+		bottom: 17px;
+		left: 121px;
+	}
+	.owl-next{
+		background: transparent;
+		border: 0;
+		position: absolute;
+    	bottom: 17px;
+	}
+	.testimonials-card {
+		background: #FFFFFF;
+		padding: 30px 30px;
+		height: 340px;
+	}
+	.owl-slider {
+		margin-top: 2rem;
+	}
+	.home-slider {
+		margin-top: 0rem;
+		padding: 3rem 0;
+	}
+	.home-last-se {
+		padding: 0rem 0 0 0 !important;
+	}
+	
+}
+
+@media only screen and (max-width: 600px) {
+	.error-page {
+		background: url(../img/error-img-bg-mo.png) no-repeat;
+		background-size: cover;
+		background-position: center center;
+		padding: 12rem 0;
+	}
+	
+	.packages-content {
+		padding: 2rem 0 1rem 0rem;
+		text-align: center;
+	}
+	.social-media-5 .email-content {
+		padding: 39px 18px !important;
+		display: block;
+		position: relative;
+		width: 100%;
+	}
+	.overlay-bg-2 {
+		background: url(../img/overlay-bg-2-mo.png) no-repeat;
+		height: 400px;
+		background-size: contain;
+		width: 100%;
+	}
+	.overlay-bg-3 {
+		background: url(../img/ppc-water-mo.png) no-repeat;
+		height: 400px;
+		background-size: contain;
+		width: 100%;
+	}
+	.overlay-bg-4 {
+		background: url(../img/rom-water-mo.png) no-repeat;
+		height: 400px;
+		background-size: contain;
+		width: 100%;
+	}
+	.overlay-bg-5 {
+		background: url(../img/web-water.png) no-repeat;
+		height: 400px;
+		background-size: contain;
+		width: 100%;
+	}
+	.overlay-bg-6 {
+		background: url(../img/seo-water-bg-mo.png) no-repeat;
+		height: 370px;
+		background-size: cover;
+    	background-position: 100% 100%;
+		width: 100%;
+	}
+}
+/* -------------------------------------------social-page --------------------------------------*/
+@media only screen and (max-width: 600px) {
+	.social-media-2 .email-content .h2-black {
+		font-family: 'Helvetica Now Display Bold';
+		font-style: normal;
+		font-weight: bold;
+		font-size: 28px;
+		line-height: 41px;
+		letter-spacing: 0.03em;
+		text-transform: capitalize;
+		color: #1B2431;
+	}
+}
+/* -------------------------------------------email-page --------------------------------------*/
+@media only screen and (max-width: 600px) {
+	.hero-top-page {
+		padding-bottom: 0px;
+	}
+	.top-hero-content {
+		padding: 0rem 0;
+		text-align: center;
+	}
+	
+	.top-hero-content p {
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 19px;
+        text-align: center;
+        text-transform: capitalize;
+        color: #1B2431;
+        opacity: 0.7;
+        text-align:center;
+
+	}
+	.top-hero-content p {
+        font-family: 'Helvetica Now Display Bold '!important;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px !important;
+        line-height: 24px !important;
+        letter-spacing: 0.09em;
+        text-transform: capitalize;
+        color: #1B2431;
+        opacity: 0.7;
+
+
+	}
+	.top-featurs p {
+		font-family: Open Sans;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		line-height: 22px;
+		display: block;
+		align-items: center;
+		color: #1B2431;
+		opacity: 0.7;
+		text-align: center;
+	}
+	.top-head-mo{
+		margin-top: -89px;
+		background: #fff;
+		padding: 29px 23px 0px;
+	}
+	.what-do {
+		font-family: 'Helvetica Now Display Bold';
+		font-style: normal;
+		font-weight: bold;
+		font-size: 16px;
+		line-height: 23px;
+		text-align: center;
+		text-decoration-line: underline;
+		text-transform: capitalize;
+		color: #1B2431;
+		margin-left: 15px;
+	}	
+	.bnt-and-a .btn-tertiary {
+		background: #044B5A;
+		border-radius: 77px;
+		font-family: Helvetica Now Display Bold;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 14px;
+		line-height: 21px;
+		text-align: center;
+		text-transform: capitalize;
+		color: #F2F2F2;
+		padding: 13px 22px;
+		height: calc(2.625rem + 10px);
+	}
+	
+	.second-sec{
+		padding-top: 64px;
+	}
+	.email-content {
+		padding: 39px 22px;
+		display: block;
+		position: relative;
+		width: 100%;
+		text-align: center;
+	}
+	.email-content p {
+		font-family: Open Sans;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		line-height: 22px;
+		color: #1B2431;
+	}
+	.email-content .h2-black {
+		font-family: 'Helvetica Now Display Bold';
+		font-style: normal;
+		font-weight: 700;
+		font-size: 28px;
+		line-height: 41px;
+		letter-spacing: 0.03em;
+		text-transform: capitalize;
+		color: #1B2431;
+	}
+	.border-devider {
+		background: #044B5A;
+		height: 2px;
+		width: 321px;
+		margin-top: -24px;
+		margin-bottom: 20px;
+		display: block;
+	
+	}
+	.third-sec{
+		padding-bottom: 0px;
+		padding-top: 0px;
+	}
+	.packages-content .h2-black {
+		font-family: 'Helvetica Now Display Bold';
+		font-style: normal;
+		font-weight: 700;
+		font-size: 28px;
+		line-height: 41px;
+		letter-spacing: 0.03em;
+		text-transform: capitalize;
+		color: #1B2431;
+	}
+	.packages-bundule {
+		padding: 1rem 0 0 0rem;
+	}
+	.packages-details {
+		width: 160px;
+		text-align: center;
+		height: 165px;
+	}
+	.packages-details img {
+		height: 50px;
+	}
+	.packages-details p {
+		font-family: 'Helvetica Now Display Bold';
+		font-style: normal;
+		font-weight: bold;
+		font-size: 16px;
+		line-height: 24px;
+		align-items: center;
+		text-align: center;
+		letter-spacing: 0.09em;
+		text-transform: capitalize;
+		color: #1B2431;
+		margin-top: 20px;
+	}
+	
+	.how-it-works {
+		background: #1B2431;
+		padding: 2rem 0px;
+	}
+	.how-to-content h6 {
+        font-family: 'Helvetica Now Display Bold';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 24px;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.09em;
+        text-transform: capitalize;
+        color: #F2F2F2;
+        margin-top: 19px;
+    }
+    .table-box thead th {
+        font-family: 'Helvetica Now Display Bold';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px !important;
+        line-height: 24px !important;
+        text-align: center;
+        letter-spacing: 0.09em;
+        text-transform: capitalize;
+        color: #1B2431;
+        vertical-align: middle;
+    }
+
+
+
+	.fivth-sec{
+		padding: 0px;
+	}
+	
+	.fivth-sec .email-content .h2-black {
+		font-family: 'Helvetica Now Display Bold';
+		font-style: normal;
+		font-weight: bold;
+		font-size: 28px;
+		line-height: 41px;
+		letter-spacing: 0.03em;
+		text-transform: capitalize;
+		color: #1B2431;
+	}
+	
+	.fivth-sec .email-content {
+		padding: 39px 20px;
+		display: block;
+		position: relative;
+		width: 100%;
+	}
+	.fivth-sec .h5-black {
+		font-family: 'Helvetica Now Display Bold';
+		font-style: normal;
+		font-weight: bold;
+		font-size: 28px;
+		line-height: 41px;
+		letter-spacing: 0.09em;
+		text-transform: capitalize;
+		color: #1B2431;
+		margin-bottom: 26px;
+		margin-top: 24px;
+	}
+	.overlay-bg-1 {
+		background: url(../img/overlay-bg-mo.png) no-repeat;
+		height: 400px;
+		background-size: contain;
+		width: 100%;
+	}
+	.over-lay-content {
+		background: #fff;
+		margin-top: 1.5rem;
+		padding: 8px;
+	}
+	.month-collection {
+		height: 63px;
+		display: flex;
+		justify-content: space-around;
+		border: 2px solid #044B5A;
+		box-sizing: border-box;
+		border-radius: 10px;
+		position: relative;
+	}
+	.month-collection a {
+		font-family: 'Helvetica Now Display Bold';
+		font-style: normal;
+		font-weight: bold;
+		font-size: 12px;
+		line-height: 33px;
+		align-items: center;
+		text-align: center;
+		text-transform: capitalize;
+		color: #044B5A;
+		text-decoration: none;
+		width: 108px;
+		padding: 12px;
+		border-right: 2px solid #044B5A;
+	}
+	.months-active {
+		background: #BFD5DA;
+		border-top-left-radius: 9px;
+		border-bottom-left-radius: 9px;
+	}
+	
+	.swipe {
+		font-family: Open Sans;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 14px;
+		line-height: 19px;
+		text-align: center;
+		color: #044B5A;
+		margin-top: 30px;
+	}
+	.overlay-sec {
+		padding-bottom: 2rem;
+	}
+	
+	.table-box {
+		flex: 0 0 100%;
+		max-width: 100%;
+		width: 100%;
+		overflow-x: scroll;
+		padding-bottom: 0px;
+		margin-bottom: -8px;
+	
+	}
+	.months-details p {
+		font-family: Open Sans;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 14px;
+		line-height: 19px;
+		display: flex;
+		align-items: center;
+		text-transform: capitalize;
+		color: #1B2431;
+		vertical-align: middle;
+		margin-top: 15px;
+		text-align: left;
+	}
+	.months-details td {
+		font-family: Open Sans;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 14px;
+		line-height: 19px;
+		color: #999999;
+		vertical-align: middle;
+		text-align: center;
+	}
+	td .btn-tertiary {
+		background: #044B5A;
+		border-radius: 77px;
+		font-family: Helvetica Now Display Bold;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 12px;
+		line-height: 17px;
+		text-align: center;
+		text-transform: capitalize;
+		color: #F2F2F2;
+		padding: 8px 22px;
+		height: calc(2.625rem + 10px);
+		margin-bottom: 13px;
+		margin-top: 13px;
+		width: 118px;
+	}
+
+	.months-table {
+		padding-bottom: 0px;
+	}
+	.main-box {
+		padding: 3rem 1rem 2rem 1rem;
+	}
+	.need-custom{
+		text-align: center;
+	}
+	.last-form {
+		padding-right: 0rem;
+		padding-top: 1rem;
+	}
+	.last-section-from{
+		padding-top: 2rem;
+		padding-bottom: 0px;
+	}
+	.need-custom p {
+		font-family: Open Sans;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 14px;
+		line-height: 19px;
+		color: #1B2431;
+	}
+	.last-form .form-control-lg {
+		background: #FFFFFF;
+		height: 60px;
+		padding: .875rem .875rem;
+		border-radius: 0;
+		border: 2px solid #1B2431;
+		box-sizing: border-box;
+		font-family: Open Sans;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		line-height: 22px;
+		color: #1B2431;
+		width: 100%;
+	}
+	.last-form .register-check span {
+		font-family: 'Open Sans';
+		font-style: normal;
+		font-weight: normal;
+		font-size: 14px;
+		line-height: 19px;
+		align-items: center;
+		color: #12394A;
+		margin-left: 20px;
+	}
+	.last-form .btn-tertiary-border {
+		border: 2px solid #1B2431;
+		box-sizing: border-box;
+		border-radius: 77px;
+		text-align: center;
+		font-family: 'Helvetica Now Display Bold';
+		font-style: normal;
+		font-weight: bold;
+		font-size: 16px;
+		line-height: 24px;
+		text-align: center;
+		text-transform: capitalize;
+		color: #1B2431;
+		padding: 12px 50px;
+		height: calc(2.625rem + 12px);
+		margin-top: 12px;
+	}
+	
+}
+
+/* -------------------------------------------about-page --------------------------------------*/
+@media only screen and (max-width: 600px) {
+	.top-page-head{
+		background: #fff;
+		padding: 25px 35px;
+	}
+	.top-page-sec{
+		padding-bottom: 1rem;
+	}
+	.top-left-content {
+		padding: 1rem 1rem 0 1rem;
+		display: block;
+		position: relative;
+		width: 100%;
+		text-align: center;
+		margin-top: -80px;
+	}
+	.top-left-content .tag {
+		font-family: 'Helvetica Now Display Bold';
+		font-style: normal;
+		font-weight: 300;
+		font-size: 16px;
+		line-height: 24px;
+		letter-spacing: 0.25em;
+		text-transform: uppercase;
+		color: #1B2431;
+	}
+	.top-left-content .p1-black {
+		font-family: 'Helvetica Now Display Bold';
+		font-style: normal;
+		font-weight: 500;
+		font-size: 16px;
+		line-height: 24px;
+		color: #1B2431;
+	}
+	.who-are-you .tag {
+		font-family: 'Helvetica Now Display';
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		line-height: 2px;
+		letter-spacing: 0.25em;
+		text-transform: uppercase;
+		color: #F2F2F2;
+	}
+	.who-are-you p {
+		font-family: Open Sans;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 14px;
+		line-height: 19px;
+		align-items: center;
+		text-align: center;
+		color: #FFFFFF;
+	}
+	.why-are-we-content .tag {
+		font-family: Helvetica Now Display;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		line-height: 24px;
+		letter-spacing: 0.25em;
+		text-transform: uppercase;
+		color: #1B2431;
+		margin-top: -40px;
+		margin-bottom: 40px;
+	}
+	.why-are-we-content p {
+		font-family: Open Sans;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 14px;
+		line-height: 19px;
+		text-align: center;
+		color: #1B2431;
+		margin-top: 20px;
+	}
+	.why-are-we{
+		padding-bottom: 0px;
+	}
+	.bottom-devided {
+		background: #044B5A;
+		width: 316px;
+		height: 2px;
+		margin: auto;
+		display: block;
+		margin-top: 30px;
+		display: none;
+	}
+	.research-content h3 {
+		font-family: 'Helvetica Now Display Bold';
+		font-style: normal;
+		font-weight: bold;
+		font-size: 16px;
+		line-height: 24px;
+		text-align: center;
+		letter-spacing: 0.09em;
+		text-transform: capitalize;
+		color: #1B2431;
+	}
+	.research-content-bg p {
+		font-family: Open Sans;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		line-height: 22px;
+		text-align: center;
+		color: #1B2431;
+		padding: 18px 14px 0px 14px;
+	}
+	.resarch-right{
+		padding: 1rem 0;
+	}
+	.research-content-bg {
+		background: #F2F2F2;
+		padding: 20px 2px;
+		text-align: center;
+		margin-top: 55px;
+		margin-bottom: -4px;
+	}
+	.last-content {
+		padding: 4rem 1rem 4rem 1rem;
+		margin: auto;
+		display: block;
+		width: 100%;
+		text-align: center;
+	}
+	.about-last-sec{
+		padding: 2rem 0 0 0;
+	}
+	.or{
+		font-family:'Helvetica Now Display';
+		font-style: normal;
+		font-weight: bold;
+		font-size: 16px;
+		line-height: 24px;
+		letter-spacing: 0.09em;
+		text-transform: capitalize;
+		color: #1B2431;
+	}
+	.about-last-sec p{
+		font-family: Open Sans;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 14px;
+		line-height: 19px;
+		text-align: center;
+		text-transform: capitalize;
+		color: #1B2431;
+	}
+	.about-last-sec .btn-tertiary-border {
+		border: 2px solid #044B5A;
+		box-sizing: border-box;
+		border-radius: 77px;
+		text-align: center;
+		font-family: 'Helvetica Now Display Bold';
+		font-style: normal;
+		font-weight: bold;
+		font-size: 16px;
+		line-height: 24px;
+		text-align: center;
+		text-transform: capitalize;
+		color: #044B5A;
+		padding: 20px 78px;
+		height: calc(3.625rem + 10px);
+	}
+	
+}
+/* -------------------------------------------contact-page---------------------------------- */
+@media only screen and (max-width: 600px) {
+	.faq-top-page{
+		background: url(../img/faq-img-bg-mo.png) no-repeat ;
+		background-size: cover;
+		background-position: center center;
+		height: 478px;
+        width: 100%;
+
+	}
+	.faq-page {
+		background: none;
+		padding-top: 0rem;
+		padding-bottom: 2rem;
+		background-size: cover;
+		background-position: center center;
+		position: relative;
+		width: 100%;
+		margin-top: -87px;
+	}
+	.faq-head{
+		background: #fff;
+		height: 146px;
+		padding: 20px 20px;
+	}
+	.faq-head .h2-white {
+		font-family: 'Helvetica Now Display Bold';
+		font-style: normal;
+		font-weight: 800;
+		font-size: 30px;
+		line-height: 44px;
+		display: flex;
+		align-items: center;
+		text-align: center;
+		text-transform: capitalize;
+		color: #1B2431;
+
+	}
+	.faq-page .accordion-item {
+		background:#F2F2F2;
+		border: 2px solid #F2F2F2;
+		margin-bottom: 20px;
+		padding: 7px 7px;
+	}
+	.accordion-button {
+		font-family: 'Helvetica Now Display Bold';
+		font-style: normal;
+		font-weight: bold;
+		font-size: 16px;
+		line-height: 24px;
+		letter-spacing: 0.09em;
+		text-transform: capitalize;
+		color: #1B2431 !important;
+	}
+	.accordion-body p {
+		font-family: Open Sans;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 14px;
+		line-height: 19px;
+		text-transform: capitalize;
+		color: #1B2431;
+
+	}
+	.accordion-button::after {
+		flex-shrink: 0;
+		width: 24px;
+		height: 24px;
+		margin-left: auto;
+		content: "";
+		background: url(../img/faq-icon-mo.svg);
+		background-repeat: no-repeat;
+		background-size: contain;
+		transition: transform .2s ease-in-out;
+		color: #fff;
+		margin-top: -12px;
+	}
+	
+	
+	.accordion-button:not(.collapsed)::after {
+		background: url(../img/faq-icon-mo.svg);
+		width: 24px;
+		height: 24px;
+		margin-top: -23px;
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+	
+}
+/* -------------------------------------------login.-page---------------------------------- */
+@media only screen and (max-width: 600px) {
+	.login-page{
+		padding: 6rem 0rem 0rem;
+	}
+	.login-box-head{
+		text-align: center;
+		height: 110px;
+		background: #fff;
+		padding: 33px 20px;
+	}
+	.login-box-head .h2-black {
+        font-family: 'Helvetica Now Display Bold';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 44px;
+        letter-spacing: 0.03em;
+        text-transform: capitalize;
+        color: #1B2431;
+    }
+	.login-left{
+		margin-top: -92px;
+	}
+}
+
+/* -------------------------------------------contact-page---------------------------------- */
+
+@media only screen and (max-width: 600px) {
+	/* .contact-top-page{
+		background: url(../img/error-img-bg-mo.png) no-repeat ;
+		background-size: cover;
+		background-position: center center;
+		height: 478px;
+        width: 100%;
+	} */
+	.contact-video-1 {
+		width: 100%;
+		max-width: 100%;
+		z-index: 2;
+		transform: scale(1.4);
+		height: 100%;
+	}
+	.contact-right {
+		padding: 30px 30px 0px 30px;
+		text-align: center;
+		background-color: #fff;
+		position: relative;
+		z-index: 1;
+		top: auto;
+		width: 100%;
+	}
+	.contact-page {
+		background: none;
+		padding-top: 0rem;
+		padding-bottom: 2rem;
+		margin-top: -77px;
+	}
+	.contact-left {
+		padding: 0rem 0rem;
+		top: auto;
+		width: 100%;
+		height: 100%;
+		position: relative;
+	}
+	
+	
+	.contact-content h2 {
+		font-family: 'Helvetica Now Display Bold';
+		font-style: normal;
+		font-weight: bold;
+		font-size: 30px;
+		line-height: 44px;
+		align-items: center;
+		letter-spacing: 0.03em;
+		text-transform: capitalize;
+		color: #1B2431;
+	}
+	.contact-content p {
+		font-family: Open Sans;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 14px;
+		line-height: 19px;
+		text-align: center;
+		text-transform: capitalize;
+		color: #1B2431;
+		opacity: 0.7;
+
+	}
+	.contact-details h4 {
+		font-family: 'Helvetica Now Display Bold';
+		font-style: normal;
+		font-weight: bold;
+		font-size: 25px;
+		line-height: 39px;
+		letter-spacing: 0.09em;
+		text-transform: capitalize;
+		color: #1B2431;
+		opacity: 0.7;
+		display: none;
+	}
+	.contact-details p {
+		font-family: Open Sans;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		line-height: 22px;
+		color: #1B2431;
+		opacity: 0.7;
+		display: none;
+	}
+	.contact-left .form-control-lg {
+		background: transparent;
+		height: 60px;
+		padding: .875rem .875rem;
+		border-radius: 0;
+		border: 2px solid #999999;
+		box-sizing: border-box;
+		font-family: Open Sans;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		line-height: 22px;
+		color: #000;
+		width: 100%;
+	}
+	.contact-left textarea {
+		background: transparent;
+		padding: .875rem .875rem;
+		border: 2px solid #999999;
+		box-sizing: border-box;
+		font-family: Open Sans;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		line-height: 22px;
+		color: #000;
+		width: 100%;
+	}
+	.contact-left .check-text {
+		font-family: Open Sans;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 14px;
+		line-height: 19px;
+		text-transform: capitalize;
+		color: #1B2431;
+	}
+	.contact-left .btn-tertiary-border {
+		border: 2px solid #044B5A;
+		box-sizing: border-box;
+		border-radius: 77px;
+		text-align: center;
+		font-family: 'Helvetica Now Display Bold';
+		font-style: normal;
+		font-weight: bold;
+		font-size: 16px;
+		line-height: 24px;
+		text-align: center;
+		text-transform: capitalize;
+		color: #044B5A;
+		padding: 13px 50px;
+		height: calc(2.625rem + 10px);
+	}
+	
+}
+/* -------------------------------------------check-out-page---------------------------------- */
+
+@media only screen and (max-width: 600px) {
+	.checkout-page{
+		padding-top: 40px;
+		padding-bottom: 0px;
+	}
+	.check-out-details {
+		padding: 36px 21px;
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+	.check-head .h2-black {
+        font-family: 'Helvetica Now Display Bold';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 44px;
+        letter-spacing: 0.03em;
+        text-transform: capitalize;
+        color: #1B2431;
+    }
+	.check-out-details .form-control-lg {
+		background: #FFFFFF;
+		height: 64px;
+		padding: .875rem .875rem;
+		border-radius: 0;
+		border: 2px solid #F2F2F2;
+		box-sizing: border-box;
+		font-family: 'Helvetica Now Display Bold';
+		font-style: normal;
+		font-weight: 500;
+		font-size: 20px;
+		line-height: 29px;
+		color: #1B2431;
+		width: 100%;
+	}
+	.register-check span {
+		font-family: 'Helvetica Now Display';
+		font-style: normal;
+		font-weight: normal;
+		font-size: 14px;
+		line-height: 19px;
+		align-items: center;
+		color: #12394A;
+		margin-left: 15px;
+	}
+	.check-out-details .form-select {
+		height: 64px;
+		border-radius: 0;
+		border: 2px solid #F2F2F2;
+		box-sizing: border-box;
+		font-family: 'Helvetica Now Display Bold';
+		font-style: normal;
+		font-weight: 500;
+		font-size: 20px;
+		line-height: 29px;
+		color: #1B2431;
+		width: 100%;
+	}
+	.coupon-box .form-control-lg {
+		background: transparent;
+		height: 45px;
+		padding: .875rem .875rem;
+		border-radius: 0;
+		border: 2px solid #999999;
+		box-sizing: border-box;
+		font-family: Open Sans;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		line-height: 22px;
+		color: #1B2431;
+		width: 100%;
+	}
+	.coupon-box .btn-tertiary-border {
+		border: 2px solid #044B5A;
+		box-sizing: border-box;
+		border-radius: 77px;
+		text-align: center;
+		font-family: 'Helvetica Now Display Bold';
+		font-style: normal;
+		font-weight: bold;
+		font-size: 16px;
+		line-height: 24px;
+		text-align: center;
+		text-transform: capitalize;
+		color: #044B5A;
+		padding: 7px 50px;
+		height: calc(2.625rem + 0px);
+	}
+	.coupon-box .btn-tertiary {
+		background: #044B5A;
+		border-radius: 77px;
+		font-family: Helvetica Now Display Bold;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 16px;
+		line-height: 24px;
+		text-align: center;
+		text-transform: capitalize;
+		color: #F2F2F2;
+		padding: 8px 50px;
+		height: calc(2.625rem + 4px);
+	}
+	
+	
+	
+	
+	
+}
+
+/* -------------------------------------------payment-succseful---------------------------------- */
+@media only screen and (max-width: 600px) {
+	.your-order-details{
+		padding-bottom: 0px;
+		padding-top: 49px;
+	}
+	.payment-succseful p {
+		font-family: Open Sans;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 14px;
+		line-height: 19px;
+		text-align: center;
+		color: #1B2431;
+	}
+	.payment-succseful{
+		padding: 0px 24px;
+		text-align: center;
+	}
+	.order-summary {
+		background: #F7F7F7;
+		padding: 36px 20px;
+		margin-top: 14px;
+		margin-bottom: 0px;
+	}
+	.order-summary h5 {
+		font-family: 'Helvetica Now Display Bold';
+		font-style: normal;
+		font-weight: 800;
+		font-size: 30px;
+		line-height: 44px;
+		align-items: center;
+		letter-spacing: 0.09em;
+		text-transform: capitalize;
+		color: #1B2431;
+	}
+	.order-summary-details .product-name {
+		font-family: 'Helvetica Now Display Bold';
+		font-style: normal;
+		font-weight: bold;
+		font-size: 16px;
+		line-height: 24px;
+		letter-spacing: 0.09em;
+		text-transform: capitalize;
+		color: #1B2431;
+		margin-bottom: 0px;
+	}
+	.order-summary-details .pro-price {
+		font-family: 'Helvetica Now Display Bold';
+		font-style: normal;
+		font-weight: bold;
+		font-size: 16px;
+		line-height: 24px;
+		letter-spacing: 0.09em;
+		text-transform: capitalize;
+		color: #1B2431;
+		margin-bottom: 0px;
+	}
+	.total-price-div .total-p {
+		font-family: 'Helvetica Now Display Bold';
+		font-style: normal;
+		font-weight: bold;
+		font-size: 16px;
+		line-height: 24px;
+		letter-spacing: 0.09em;
+		text-transform: capitalize;
+		color: #1B2431;
+		margin-right: 20px;
+	}
+	.total-price-div .total-price {
+		font-family: 'Helvetica Now Display Bold';
+		font-style: normal;
+		font-weight: bold;
+		font-size: 16px;
+		line-height: 24px;
+		letter-spacing: 0.09em;
+		text-transform: capitalize;
+		color: #1B2431;
+	}
+	
+	
+	
+}
+
+/* ---------------------------------------------account-setting---------------------------------- */
+@media only screen and (max-width: 600px) {
+	.line-be-one:before {
+		content: "";
+		background: #1B2431;
+		position: absolute;
+		left: -1px;
+		top: 4px;
+		width: 2px;
+		height: 34px;
+		z-index: 1;
+	}
+	.line-be-one:after {
+		content: "";
+		background: #1B2431;
+		position: absolute;
+		right: 0px;
+		top: 2px;
+		width: 2px;
+		height: 34px;
+		z-index: 1;
+	}
+	.order-head{
+		text-align: center;
+	}
+	.order-box-data {
+		flex: 0 0 100%;
+		max-width: 100%;
+		width: 100%;
+		overflow-x: scroll;
+		padding-bottom: 10px;
+	}
+	.order-bg {
+		background: #fff;
+		padding: 12px 14px 15px 13px;
+	}
+	.order-box{
+		padding: 2rem 0;
+	}
+	.btn-more {
+		background: #044B5A;
+		border-radius: 77px;
+		font-family: 'Helvetica Now Display Bold';
+		font-style: normal;
+		font-weight: bold;
+		font-size: 16px;
+		line-height: 24px;
+		text-align: center;
+		text-transform: capitalize;
+		color: #F2F2F2 !important;
+		padding: 18px 50px;
+		height: calc(3.625rem + 4px);
+		width: 200px;
+	}
+	.p-mo-0{
+		padding: 0px;
+	}
+	.order-bg {
+		background: #fff;
+		padding: 15px 17px 13px 18px;
+	}
+	.account-btn{
+		display: inline-block;
+		vertical-align: top;
+		letter-spacing: 0;
+		padding: 8px 8px;
+		cursor: pointer;
+		min-width: 115px;
+		width: auto;
+		text-align: center;
+		overflow: hidden;
+		text-decoration: none;
+		-webkit-font-smoothing: subpixel-antialiased;
+		-ms-touch-action: manipulation;
+		touch-action: manipulation;
+		box-sizing: border-box;
+		z-index: 1;
+		margin-left: 0px;
+	}
+	.account-menu {
+		padding: 12px;
+		height: 66px;
+	}
+	.log-out{
+		display: inline-block;
+		vertical-align: top;
+		letter-spacing: 0;
+		padding: 8px 8px;
+		cursor: pointer;
+		min-width: 129px;
+		width: auto;
+		text-align: center;
+		overflow: hidden;
+		text-decoration: none;
+		-webkit-font-smoothing: subpixel-antialiased;
+		-ms-touch-action: manipulation;
+		touch-action: manipulation;
+		box-sizing: border-box;
+		z-index: 1;
+		margin-left: 0px;
+	}
+	.account-btn {
+		margin-right: 0px;
+		position: relative;
+	}
+	.a-active {
+		font-family: 'Helvetica Now Display';
+		font-style: normal;
+		font-weight: normal;
+		font-size: 14px;
+		line-height: 21px;
+		color: #BFD5DA;
+		text-decoration: none;
+	}
+	.a-unactive {
+		font-family: 'Helvetica Now Display';
+		font-style: normal;
+		font-weight: normal;
+		font-size: 14px;
+		line-height: 21px;
+		color: #1B2431;
+		text-decoration: none;
+	}
+	.dashboard-head{
+		text-align: center;
+	}
+	.dashboard-head .h2-black {
+		font-family: 'Helvetica Now Display Bold';
+		font-style: normal;
+		font-weight: bold;
+		font-size: 30px;
+		line-height: 44px;
+		letter-spacing: 0.03em;
+		text-transform: capitalize;
+		color: #1B2431;
+	}
+	
+	.order-page {
+		padding: 1rem 0
+
+	}
+	.dashboard-box {
+		background: #fff;
+		padding: 0px 0px;
+	}
+	.dashboard-box h5 {
+		font-family: 'Helvetica Now Display Bold';
+		font-style: normal;
+		font-weight: bold;
+		font-size: 16px;
+		line-height: 24px;
+		color: #1B2431;
+	}
+	.personal-details h5 {
+		margin-bottom: 10px;
+	}
+	.dashboard-box .form-control-lg {
+		background: #FFFFFF;
+		height: 65px;
+		padding: .875rem .875rem;
+		border-radius: 0;
+		border: 2px solid #999999;
+		box-sizing: border-box;
+		font-family: Open Sans;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		line-height: 22px;
+		color: #1B2431;
+		width: 100%;
+		max-width:100%;
+	}
+	.dashboard-box select {
+		height: 65px;
+		border-radius: 0;
+		border: 2px solid #999999;
+		box-sizing: border-box;
+		font-family: Open Sans;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		line-height: 22px;
+		color: #1B2431;
+		width: 100%;
+		max-width: 367px;
+	}
+	.save-details .btn-tertiary {
+		background: #044B5A;
+		border-radius: 77px;
+		font-family: 'Helvetica Now Display Bold';
+		font-style: normal;
+		font-weight: bold;
+		font-size: 16px;
+		line-height: 24px;
+		text-align: center;
+		text-transform: capitalize;
+		color: #F2F2F2;
+		padding: 10px 39px;
+		height: 43px;
+	}
+	.order-box th {
+        font-family: 'Helvetica Now Display Bold';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 24px;
+        color: #044B5A;
+    }
+    .date-width-mo{
+        min-width: 37vw;
+        text-align: center;
+    }
+    .order-head .h2-black {
+        font-family: 'Helvetica Now Display Bold';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 40px;
+        line-height: 44px;
+        letter-spacing: 0.03em;
+        text-transform: capitalize;
+        color: #1B2431;
+    }
+    .order-box {
+        padding: 2rem 0 0 0px;
+    }
+    .dashboard-box .para {
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 19px;
+        color: #044B5A;
+        text-align: left;
+        margin-left: 42px;
+    }
+    .dashboard-details{
+        padding-bottom: 30px;
+    }
+
+
+    .payment-succseful .h2-black {
+        font-family: 'Helvetica Now Display Bold';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 44px;
+        letter-spacing: 0.03em;
+        text-transform: capitalize;
+        color: #1B2431;
+    }
+	
+	
+}
+/* ------------------------------------------footer-section----------------------------------------*/
+@media only screen and (max-width: 600px) {
+	.breadcrumb-tc {
+		background: url(../img/tc-bg-mo.png) no-repeat;
+		padding: 4rem 0 4rem 0;
+		background-size: cover;
+		background-position: center center;
+		margin-top: 6rem;
+		height: 375px;
+	}
+	.breadcrumb-pp {
+		background: url(../img/privacy-bg-img-mo.png) no-repeat;
+		padding: 4rem 0 4rem 0;
+		background-size: cover;
+		background-position: 100% 100%;
+		margin-top: 6rem;
+		height: 375px;
+	}
+	.section-mo{
+		padding: 3rem 0;
+	}
+	.section-box{
+		margin-top: -9rem;
+	}
+	.title-top-page p {
+		font-family: Open Sans;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 14px;
+		line-height: 19px;
+		text-align: center;
+		text-transform: capitalize;
+		color: #1B2431;
+		opacity: 0.7;
+	}
+	.overlay-box{
+		padding:14px 14px;
+		background: #FFFFFF;
+	}
+	.content-details-tc{
+		padding: 20px 16px;
+	}
+	.footer-bg{
+		background: #1B2431;
+		padding: 3rem 1rem 1rem 1rem;
+	}
+	.space-top{
+		margin-top: 36px;
+	}
+	.footer-bg hr {
+		margin: 1rem 0;
+		color: inherit;
+		background-color: #999999;
+		border: 0; 
+		opacity: .25;
+		height: 1.5px;
+
+	}
+		
+}

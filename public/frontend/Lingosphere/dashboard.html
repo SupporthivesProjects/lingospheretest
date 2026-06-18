@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lingosphere</title>
+
+    <!-- Style Sheets -->
+    <link rel="stylesheet" href="./dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/m_styles.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <header class="fixed-top">
+        <div class="header_top">
+            <div class="container desktop_header p-0">
+                <div class="header_main_container">
+                    <div class="header_left">
+                        <a href="./index.html">
+                            <img src="./img/header_logo.svg" alt="" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="header_right">
+                        <div class="currency_drop_container">
+                            <button class="btn btn_currency_drop" onclick="justDrop('service_drop', 'roter1')">
+                                Our Services
+                                <img src="./img/drop.svg" alt="" class="img-fluid" id="roter1">
+                            </button>
+                            <div class="dropped_div d-none" id="service_drop">
+                                <img src="./img/polygon_trigonal.svg" alt="" class="img-fluid poly_img">
+                                <button class="btn btn_header_service">Certified translation</button>
+                                <button class="btn btn_header_service">Standard translation</button>
+                                <div class="dotted"></div>
+                                <button class="btn btn_header_service">Supported languages</button>
+                                <button class="btn btn_header_service">Supported documents</button>
+                            </div>
+                        </div>
+                        <button class="btn btn_header_link active">
+                            About Us
+                        </button>
+                        <button class="btn btn_header_link">
+                            Join us
+                        </button>
+                        <button class="btn btn_header_link">
+                            FAQ's
+                        </button>
+                        <button class="btn btn_header_link">
+                            Support
+                        </button>
+                        <div class="vertical_bar"></div>
+                        <div class="currency_drop_container">
+                            <button class="btn btn_currency_drop" onclick="justDrop('currency_drop', 'roter2')">
+                                AUD
+                                <img src="./img/drop.svg" alt="" class="img-fluid" id="roter2">
+                            </button>
+                            <div class="dropped_div_currency d-none" id="currency_drop">
+                                <img src="./img/polygon_trigonal.svg" alt="" class="img-fluid poly_img">
+                                <button class="btn btn_currency active">$ AUD</button>
+                                <button class="btn btn_currency">$ GBP</button>
+                                <button class="btn btn_currency">$ USD</button>
+                            </div>
+                        </div>
+                        <div class="cart_acc">
+                            <button class="btn btn_header_link">
+                                <img src="./img/cart_basket.svg" alt="" class="img-fluid">
+                            </button>
+                            <button class="btn btn_header_link">
+                                <img src="./img/acc_logo.svg" alt="" class="img-fluid">
+                            </button>
+                        </div>
+                        <button class="btn btn_header">
+                            Get your translations
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="container mobile_header">
+                <div class="header_mobo_main">
+                    <div class="header_mobo_left">
+                        <img src="./img/header_mobo.svg" alt="" class="img-fluid">
+                    </div>
+
+                    <div class="header_mobo_right">
+                        <button class="btn btn_mobo_cart">
+                            <img src="./img/cart_basket.svg" alt="" class="img-fluid">
+                        </button>
+                        <div class="hamburger_menu">
+                            <img src="./img/hamburger_logo.svg" alt="" class="img-fluid">
+                        </div>
+                        <div class="hamburger_menu_close" style="display: none;">
+                            <img src="./img/hamburger_close.svg" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header_mobo_main_slide" style="display: none;">
+            <div class="header_main_mobo">
+                <div class="currency_drop_container">
+                    <button class="btn btn_currency_drop" onclick="justDrop('service_drop2', 'roter3')">
+                        Services
+                        <img src="./img/drop.svg" alt="" class="img-fluid" id="roter3">
+                    </button>
+                    <div class="dropped_div d-none" id="service_drop2">
+                        <button class="btn btn_header_service">Certified translation</button>
+                        <button class="btn btn_header_service">Standard translation</button>
+                        <div class="dotted"></div>
+                        <button class="btn btn_header_service">Supported languages</button>
+                        <button class="btn btn_header_service">Supported documents</button>
+                    </div>
+                </div>
+
+                <button class="btn btn_header_link active_class">
+                    Our story
+                </button>
+                <button class="btn btn_header_link">
+                    Join us
+                </button>
+                <button class="btn btn_header_link">
+                    Faqs
+                </button>
+                <button class="btn btn_header_link">
+                    Contact
+                </button>
+                <div class="dotted"></div>
+                <button class="btn btn_header_link">
+                    <img src="./img/acc_logo.svg" alt="" class="img-fluid"> My account
+                </button>
+                <button class="btn btn_header_link">
+                    <img src="./img/cart_basket.svg" alt="" class="img-fluid"> Shopping Cart
+                </button>
+                <div class="currency_drop_container">
+                    <button class="btn btn_currency_drop" onclick="justDrop('currency_drop2', 'roter4')">
+                        AUD
+                        <img src="./img/drop.svg" alt="" class="img-fluid" id="roter4">
+                    </button>
+                    <div class="dropped_div_currency d-none" id="currency_drop2">
+                        <button class="btn btn_currency active">$ AUD</button>
+                        <button class="btn btn_currency">$ GBP</button>
+                        <button class="btn btn_currency">$ USD</button>
+                    </div>
+                </div>
+                <button class="btn btn_header">
+                    Translate Now
+                </button>
+
+            </div>
+        </div>
+
+
+    </header>
+
+    <section class="checkout4_page">
+        <div class="che_s1">
+            <div class="dashboard_s1">
+                <h1 class="dashboard_title">Welcome Back User</h1>
+                <p class="dashboard_subtitle">From your dashboard, update account info, password, billing, and view past orders.</p>
+                <div class="dashobard_tab_button" id="pills-tab" role="tablist">
+                    <button class="btn dashboard_btn active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Account&nbsp;Details</button>
+                
+                    <button class="btn dashboard_btn" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Order&nbsp;History</button>
+                
+                    <button class="btn dashboard_btn" id="pills-contact-tab" >Sign&nbsp;Out 
+                        <img src="./img/signout_logo.svg" alt="" class="img-fluid">
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="dashboard_s2">
+            <div class="container">
+                <div class="dashboard_inner">
+                    <div class="tab-content" id="pills-tabContent">
+                        <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+                            <div class="interim">
+                                <div class="dashboard_tab_1">
+                                    <div class="dashtab_left">
+                                        <div class="">
+                                            <input type="email" class="form-control input_global" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="First Name">
+                                        </div>
+                                        <div class="">
+                                            <input type="email" class="form-control input_global" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Last Name">
+                                        </div>
+                                        <div class="">
+                                            <input type="email" class="form-control input_global" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email Address">
+                                        </div>
+                                        <div class="">
+                                            <input type="email" class="form-control input_global" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Phone Number">
+                                        </div>
+                                        <div class="">
+                                            <input type="email" class="form-control input_global" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Password">
+                                        </div>
+                                        <div class="">
+                                            <input type="email" class="form-control input_global" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Confirm New Password">
+                                        </div>
+                                    </div>
+                                    <div class="dashtab_right">
+                                        <div class="">
+                                            <input type="email" class="form-control input_global" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Address Line 1">
+                                        </div>
+                                        <div class="">
+                                            <input type="email" class="form-control input_global" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Address Line 2">
+                                        </div>
+                                        <div class="">
+                                            <input type="email" class="form-control input_global" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="City/Town">
+                                        </div>
+                                        <div class="">
+                                            <select class="form-select inpi_boxx" style="border: 1px solid #BDBDBD;" aria-label="Default select example">
+                                                <option selected="">Country</option>
+                                                <option value="1">One</option>
+                                                <option value="2">Two</option>
+                                                <option value="3">Three</option>
+                                            </select>
+                                        </div>
+                                        <div class="">
+                                            <input type="email" class="form-control input_global" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Country/State/Province">
+                                        </div>
+                                        <div class="">
+                                            <input type="email" class="form-control input_global" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Zip Code/Postal Code">
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="btn btn_redd" type="submit">Proceed to checkout</button>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
+                            <div class="tab_table">
+                                <div class="mobile_none">
+                                    <table class="table table-borderless">
+                                        <thead>
+                                        <tr>
+                                            <th scope="col"><p class="t_head_text">Order&nbsp;#</p></th>
+                                            <th scope="col"><p class="t_head_text">Date</p></th>
+                                            <th scope="col"><p class="t_head_text">QTY</p></th>
+                                            <th scope="col"><p class="t_head_text">Total</p></th>
+                                            <th scope="col"><p class="t_head_text text-center">Status</p></th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                            <th scope="row"><p class="t_body_text">12345</p></th>
+                                            <td><p class="t_body_text">01.12.2023</p></td>
+                                            <td><p class="t_body_text">4 pages</p></td>
+                                            <td><p class="t_body_text">£199.75</p></td>
+                                            <td><button class="btn btn_table_light mx-auto">In Progress</button></td>
+                                            </tr>
+                                            <tr>
+                                            <th scope="row"><p class="t_body_text">12345</p></th>
+                                            <td><p class="t_body_text">01.12.2023</p></td>
+                                            <td><p class="t_body_text">4 pages</p></td>
+                                            <td><p class="t_body_text">£199.75</p></td>
+                                            <td><button class="btn btn_table_dark mx-auto">Complete</button></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+
+                            <div class="desktop_none">
+                                <div class="table_mob">
+                                    <div class="table_disput">
+                                        <div class="row">
+                                            <div class="col-6"><p class="t_head_text">Order #</p></div>
+                                            <div class="col-6"><p class="t_head_text text-end">12345</p></div>
+                                        </div>
+                                        <div class="table_bord"></div>
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <p class="t_body_title">Date</p>
+                                            </div>
+                                            <div class="col-6">
+                                                <p class="t_body_text">01.12.2023</p>
+                                            </div>
+                                            <div class="col-6">
+                                                <p class="t_body_title">QTY</p>
+                                            </div>
+                                            <div class="col-6">
+                                                <p class="t_body_text">4 pages</p>
+                                            </div>
+                                            <div class="col-6">
+                                                <p class="t_body_title">Total</p>
+                                            </div>
+                                            <div class="col-6">
+                                                <p class="t_body_text">£199.75</p>
+                                            </div>
+                                            <div class="col-6">
+                                                <p class="t_body_title mb-0">Status</p>
+                                            </div>
+                                            <div class="col-6">
+                                                <p class="t_body_text mb-0">In Progress</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="table_disput">
+                                        <div class="row">
+                                            <div class="col-6"><p class="t_head_text">Order #</p></div>
+                                            <div class="col-6"><p class="t_head_text text-end">12345</p></div>
+                                        </div>
+                                        <div class="table_bord"></div>
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <p class="t_body_title">Date</p>
+                                            </div>
+                                            <div class="col-6">
+                                                <p class="t_body_text">01.12.2023</p>
+                                            </div>
+                                            <div class="col-6">
+                                                <p class="t_body_title">QTY</p>
+                                            </div>
+                                            <div class="col-6">
+                                                <p class="t_body_text">4 pages</p>
+                                            </div>
+                                            <div class="col-6">
+                                                <p class="t_body_title">Total</p>
+                                            </div>
+                                            <div class="col-6">
+                                                <p class="t_body_text">£199.75</p>
+                                            </div>
+                                            <div class="col-6">
+                                                <p class="t_body_title mb-0">Status</p>
+                                            </div>
+                                            <div class="col-6">
+                                                <p class="t_body_text mb-0">In Progress</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer_top">
+            <div class="footer_top_one">
+                <img src="./img/footer_logo.svg" alt="" class="img-fluid mobile_none">
+                <img src="./img/footer_mobo_logo.svg" alt="" class="img-fluid desktop_none">
+                <img src="./img/masterCard.svg" alt="" class="img-fluid">
+            </div>
+            <div class="footer_top_two">
+                <div class="footer_top_two_top">
+                    <button class="btn footer_link">Our Services</button>
+                    <img src="./img/circle.svg" alt="" class="img-fluid mobile_none">
+                    <button class="btn footer_link">About us</button>
+                    <img src="./img/circle.svg" alt="" class="img-fluid mobile_none">
+                    <button class="btn footer_link">Join us</button>
+                    <img src="./img/circle.svg" alt="" class="img-fluid mobile_none">
+                    <button class="btn footer_link">FAQ's</button>
+                    <img src="./img/circle.svg" alt="" class="img-fluid mobile_none">
+                    <button class="btn footer_link">Support</button>
+                    <img src="./img/circle.svg" alt="" class="img-fluid mobile_none">
+                    <button class="btn footer_link">Terms & Conditions</button>
+                    <img src="./img/circle.svg" alt="" class="img-fluid mobile_none">
+                    <button class="btn footer_link">Privacy Policy</button>
+                </div>
+                <div class="dotted"></div>
+                <div class="footer_top_two_bottom">
+                    <button class="btn footer_link">Gangnam-gu, Seoul (postcode: 11111)</button>
+                    <img src="./img/circle.svg" alt="" class="img-fluid mobile_none">
+                    <button class="btn footer_link">support@Lingosphere.com</button>
+                    <img src="./img/circle.svg" alt="" class="img-fluid mobile_none">
+                    <button class="btn footer_link">319-00-0000</button>
+                </div>
+            </div>
+        </div>
+        <div class="footer_bottom">
+            <p class="footer_copyright">©Lingosphere. 2024 All right reserved.</p>
+        </div>
+    </footer>
+
+
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+    integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="./dist/js/owl.carousel.js"></script>
+<!-- <script src="./dist/js/bootstrap.min.js"></script>
+    <script src="./dist/js/bootstrap.bundle.min.js"></script> -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous">
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+    integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous">
+</script>
+
+<script>
+    $(document).ready(function () {
+        $(".hamburger_menu").click(function () {
+            $(".header_mobo_main_slide").fadeIn("slow");
+            $(".hamburger_menu").fadeOut("slow");
+            $(".hamburger_menu_close").fadeIn("slow");
+            $(".header_cart_mobo_main_slide").fadeOut("slow");
+        });
+        $(".hamburger_menu_close").click(function () {
+            $(".header_mobo_main_slide").fadeOut("slow");
+            $(".hamburger_menu").fadeIn("slow");
+            $(".hamburger_menu_close").fadeOut("slow");
+        });
+        $(".cart_menu").click(function () {
+            $(".header_cart_mobo_main_slide").fadeIn("slow");
+            $(".cart_menu").fadeOut("slow");
+            $(".cart_menu_close").fadeIn("slow");
+            $(".header_mobo_main_slide").fadeOut("slow");
+        });
+        $(".cart_menu_close").click(function () {
+            $(".header_cart_mobo_main_slide").fadeOut("slow");
+            $(".cart_menu").fadeIn("slow");
+            $(".cart_menu_close").fadeOut("slow");
+        });
+    });
+
+    function justDrop(droperId, roterId) {
+        const theId = document.getElementById(droperId);
+        const theId2 = document.getElementById(roterId);
+        if (theId.classList.contains('d-none')) {
+            theId.classList.remove('d-none');
+            theId2.style.rotate = '180deg';
+        } else {
+            theId.classList.add('d-none');
+            theId2.style.rotate = '0deg';
+        }
+    }
+
+    function counterMinus(indexPosition) {
+        const myId = 'cart_product_units' + indexPosition;
+        const inputElement = document.getElementById(myId);
+        let currentValue = parseInt(inputElement.value, 10);
+
+        if (isNaN(currentValue)) {
+            currentValue = 0;
+        }
+
+        if (currentValue > 1) {
+            const newValue = currentValue - 1;
+            inputElement.value = newValue;
+        } else {
+            inputElement.value = currentValue;
+        }
+    }
+
+
+    function counterPlus(indexPosition) {
+        const myId = 'cart_product_units' + indexPosition;
+        const inputElement = document.getElementById(myId);
+        let currentValue = parseInt(inputElement.value, 10);
+
+        if (isNaN(currentValue)) {
+            currentValue = 0;
+        }
+
+        if (currentValue < 10) {
+            const newValue = currentValue + 1;
+            inputElement.value = newValue;
+        } else {
+            inputElement.value = currentValue;
+        }
+    }
+</script>
+
+<script>
+    const radioButtons = document.querySelectorAll('.chek_inpoot');
+  
+    radioButtons.forEach((radioButton) => {
+      radioButton.addEventListener('click', (event) => {
+        const frm = event.target.closest('.frm');
+        frm.classList.add('active');
+        const siblings = frm.parentNode.children;
+        for (let i = 0; i < siblings.length; i++) {
+          if (siblings[i] !== frm) {
+            siblings[i].classList.remove('active');
+          }
+        }
+      });
+    });
+
+
+
+
+  function field_box_file() {
+    console.log('me');
+    document.getElementById('document').click();
+  }
+  $("#document").on("change", function(e){
+    document.getElementById('upload_placeholder').innerHTML = e.target.files[0].name;
+  })
+  </script>
+
+
+</html>

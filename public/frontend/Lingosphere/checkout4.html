@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lingosphere</title>
+
+    <!-- Style Sheets -->
+    <link rel="stylesheet" href="./dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/m_styles.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <header class="fixed-top">
+        <div class="header_top">
+            <div class="container desktop_header p-0">
+                <div class="header_main_container">
+                    <div class="header_left">
+                        <a href="./index.html">
+                            <img src="./img/header_logo.svg" alt="" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="header_right">
+                        <div class="currency_drop_container">
+                            <button class="btn btn_currency_drop" onclick="justDrop('service_drop', 'roter1')">
+                                Our Services
+                                <img src="./img/drop.svg" alt="" class="img-fluid" id="roter1">
+                            </button>
+                            <div class="dropped_div d-none" id="service_drop">
+                                <img src="./img/polygon_trigonal.svg" alt="" class="img-fluid poly_img">
+                                <button class="btn btn_header_service">Certified translation</button>
+                                <button class="btn btn_header_service">Standard translation</button>
+                                <div class="dotted"></div>
+                                <button class="btn btn_header_service">Supported languages</button>
+                                <button class="btn btn_header_service">Supported documents</button>
+                            </div>
+                        </div>
+                        <button class="btn btn_header_link active">
+                            About Us
+                        </button>
+                        <button class="btn btn_header_link">
+                            Join us
+                        </button>
+                        <button class="btn btn_header_link">
+                            FAQ's
+                        </button>
+                        <button class="btn btn_header_link">
+                            Support
+                        </button>
+                        <div class="vertical_bar"></div>
+                        <div class="currency_drop_container">
+                            <button class="btn btn_currency_drop" onclick="justDrop('currency_drop', 'roter2')">
+                                AUD
+                                <img src="./img/drop.svg" alt="" class="img-fluid" id="roter2">
+                            </button>
+                            <div class="dropped_div_currency d-none" id="currency_drop">
+                                <img src="./img/polygon_trigonal.svg" alt="" class="img-fluid poly_img">
+                                <button class="btn btn_currency active">$ AUD</button>
+                                <button class="btn btn_currency">$ GBP</button>
+                                <button class="btn btn_currency">$ USD</button>
+                            </div>
+                        </div>
+                        <div class="cart_acc">
+                            <button class="btn btn_header_link">
+                                <img src="./img/cart_basket.svg" alt="" class="img-fluid">
+                            </button>
+                            <button class="btn btn_header_link">
+                                <img src="./img/acc_logo.svg" alt="" class="img-fluid">
+                            </button>
+                        </div>
+                        <button class="btn btn_header">
+                            Get your translations
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="container mobile_header">
+                <div class="header_mobo_main">
+                    <div class="header_mobo_left">
+                        <img src="./img/header_mobo.svg" alt="" class="img-fluid">
+                    </div>
+
+                    <div class="header_mobo_right">
+                        <button class="btn btn_mobo_cart">
+                            <img src="./img/cart_basket.svg" alt="" class="img-fluid">
+                        </button>
+                        <div class="hamburger_menu">
+                            <img src="./img/hamburger_logo.svg" alt="" class="img-fluid">
+                        </div>
+                        <div class="hamburger_menu_close" style="display: none;">
+                            <img src="./img/hamburger_close.svg" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header_mobo_main_slide" style="display: none;">
+            <div class="header_main_mobo">
+                <div class="currency_drop_container">
+                    <button class="btn btn_currency_drop" onclick="justDrop('service_drop2', 'roter3')">
+                        Services
+                        <img src="./img/drop.svg" alt="" class="img-fluid" id="roter3">
+                    </button>
+                    <div class="dropped_div d-none" id="service_drop2">
+                        <button class="btn btn_header_service">Certified translation</button>
+                        <button class="btn btn_header_service">Standard translation</button>
+                        <div class="dotted"></div>
+                        <button class="btn btn_header_service">Supported languages</button>
+                        <button class="btn btn_header_service">Supported documents</button>
+                    </div>
+                </div>
+
+                <button class="btn btn_header_link active_class">
+                    Our story
+                </button>
+                <button class="btn btn_header_link">
+                    Join us
+                </button>
+                <button class="btn btn_header_link">
+                    Faqs
+                </button>
+                <button class="btn btn_header_link">
+                    Contact
+                </button>
+                <div class="dotted"></div>
+                <button class="btn btn_header_link">
+                    <img src="./img/acc_logo.svg" alt="" class="img-fluid"> My account
+                </button>
+                <button class="btn btn_header_link">
+                    <img src="./img/cart_basket.svg" alt="" class="img-fluid"> Shopping Cart
+                </button>
+                <div class="currency_drop_container">
+                    <button class="btn btn_currency_drop" onclick="justDrop('currency_drop2', 'roter4')">
+                        AUD
+                        <img src="./img/drop.svg" alt="" class="img-fluid" id="roter4">
+                    </button>
+                    <div class="dropped_div_currency d-none" id="currency_drop2">
+                        <button class="btn btn_currency active">$ AUD</button>
+                        <button class="btn btn_currency">$ GBP</button>
+                        <button class="btn btn_currency">$ USD</button>
+                    </div>
+                </div>
+                <button class="btn btn_header">
+                    Translate Now
+                </button>
+
+            </div>
+        </div>
+
+
+    </header>
+
+    <section class="checkout4_page">
+        <div class="che_s1">
+            <div class="ches1_inner">
+                <h1 class="ches1_title mobile_none">checkout Summary</h1>
+                <h1 class="ches1_title desktop_none">checkout</h1>
+                <p class="ches1_subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+                <div class="ches1_main_box">
+                    <div class="ches1_box">
+                        <div class="circle_div active"><p class="circle_number">1</p></div>
+                        <p class="circle_title">Summary</p>
+                    </div>
+                    <div class="ches1_box">
+                        <div class="circle_div"><p class="circle_number">2</p></div>
+                        <p class="circle_title">Billing Details</p>
+                    </div>
+                    <div class="ches1_box">
+                        <div class="circle_div"><p class="circle_number">3</p></div>
+                        <p class="circle_title">Payment</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="che_s2">
+
+            <div class="sec_up_cont">
+                <div class="container sec_contain px-0 ">
+                <div class="sec_down_box">
+                    <div class="personal_information_b">
+                    <h4 class="suumary_title">Summary</h4>
+                    <div class="radio_box">
+                        <h4 class="radio_title">What type of translation do you need?</h4>
+                        <div class="check_boxex">
+                        <div class="frm">
+                            <div class="form-check form_radio">
+                            <input class="form-check-input chek_inpoot" value="certified" type="radio" name="request_type"
+                                id="service_1" data-title="Certified Translation"
+                                data-description="Precision, accuracy, and authenticity guaranteed for official documents and legal purposes. "
+                                data-unit-price="31.67" data-converted-unit-price="31.67" data-id="1">
+                            <label class="check_label" for="service_1">
+                                <h4 class="icon_title">Certified Translation</h4>
+                                <h4 class="icon_subtitle d-none d-lg-block d-md-block">Precision, accuracy, and authenticity
+                                guaranteed for official documents
+                                and
+                                legal purposes. </h4>
+                            </label>
+
+                            </div>
+                            <h4 class="icon_subtitle d-block d-lg-none d-md-none">Precision, accuracy, and authenticity guaranteed
+                            for official documents and legal purposes. </h4>
+                        </div>
+                        <div class="frm active">
+                            <div class="form-check form_radio">
+                            <input class="form-check-input chek_inpoot" value="standard" type="radio" name="request_type"
+                                id="service_2" data-title="Standard Professional Translation"
+                                data-description="Text-based translations that are clear, comprehensive and perfect for everyday understanding."
+                                data-unit-price="0.1" data-converted-unit-price="0.1" data-id="2" checked="checked">
+                            <label class="check_label" for="service_2">
+                                <h4 class="icon_title">Standard Professional Translation</h4>
+                                <h4 class=" icon_subtitle d-none d-lg-block d-md-block">Text-based
+                                translations that are clear, comprehensive and perfect for
+                                everyday understanding.</h4>
+                            </label>
+                            </div>
+                            <h4 class="icon_subtitle d-block d-lg-none d-md-none">Precision, accuracy, and authenticity guaranteed
+                            for official documents and legal purposes. </h4>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="upper_split">
+                        <h4 class="radio_title">What language pair do you need translated?</h4>
+                        <div class="split_box">
+                        <div class="form-group name_form">
+                            <label class="full_namee" for="exampleInputPassword1 full_namee">County</label>
+                            <select class="form-select inpi_boxx" aria-label="Default select example">
+                            <option selected="">United Kingdom</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                            </select>
+                        </div>
+                        <div class="form-group name_form">
+                            <label class="full_namee" for="exampleInputPassword1 full_namee">City</label>
+                            <select class="form-select inpi_boxx" aria-label="Default select example">
+                            <option selected="">United Kingdom</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                            </select>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="form-group name_form">
+                        <div class="lable_forget">
+                        <label for="exampleInputEmail1" class="full_namee"> How many pages do you need
+                            translated?</label>
+                        </div>
+                        <div class="impuut">
+                        <input type="email" class="form-control inpi_boxx " id="exampleInputEmail1" aria-describedby="emailHelp"
+                            placeholder="2">
+                        <p class="suus">A page is 250 words or fewer including numbers.</p>
+                        </div>
+                    </div>
+                    <div class="radio_box">
+                        <h4 class="radio_title">Upload the files you need translated</h4>
+                        <div class="name_form_div" onclick="field_box_file()">
+                        <p class="upload_placeholder" id="upload_placeholder">Upload document (.docx, .pdf)</p>
+                        <input type="file" class="form-control inpi_boxx" style="display: contents;" id="document" name="document"
+                            required="">
+                        <img src="./img/upload_icon.svg" class="eye-btn_up" alt="">
+                        </div>
+                    </div>
+                    <div class="radio_box">
+                        <h4 class="radio_title">Have additional comments?</h4>
+                        <textarea class="form-control textare_box" placeholder="First and third pages only" id="floatingTextarea"
+                        style="height: 133px;"></textarea>
+                    </div>
+                    <div class="radio_box">
+                        <h4 class="radio_title">Urgent translation?</h4>
+                        <div class="toggel_switch">
+                            <div class="">
+                                <input type="radio" id="button1" name="color" checked />
+                                <label for="button1">No</label>
+                            </div>
+                            <div class="">
+                              <input type="radio" id="button2" name="color" />
+                              <label for="button2">24 hours (+£19.10)</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="estimeted">
+                        <h4>Estimated delivery: Tuesday, 11:00 AM</h4>
+                    </div>
+                    </div>
+                    <div class="summ_ary">
+                    <div class="summary_box">
+                        <h4 class="suumary_title">Summary</h4>
+                        <div class="cart_box">
+                        <div class="left_cart_name">
+                            <h4 class="l_c_t">Certified Translation</h4>
+                            <h4 class="l_c_s">4 pages (1,000 words max)</h4>
+                        </div>
+                        <div class="right_cart_name">
+                            <h4 class="l_c_t">£99.80</h4>
+                        </div>
+                        </div>
+                        <hr class="line">
+                        <div class="sub_disc_box">
+                        <div class="cart_tottal">
+                            <h4 class="suumary_title">Total</h4>
+                            <h4 class="suumary_title">£99.80</h4>
+                        </div>
+                        </div>
+                        <div class="lowwer_content">
+                        <div class="icons_box">
+                            <img src="./img/cal_logo.svg" alt="" class="logos">
+                            <div class="icons_content">
+                            <h4 class="radio_title">Est. turnaround: 48 hours</h4>
+                            <h4 class="icon_subtitle">Lorem ipsum dolor sit amet, consetetur sadipscing
+                                elitr, sed diam nonumy. Lorem ipsum dolor sit amet.</h4>
+                            </div>
+                        </div>
+                        <div class="icons_box">
+                            <img src="./img/trans_late.svg" alt="" class="logos">
+                            <div class="icons_content">
+                            <h4 class="radio_title">French to english translation</h4>
+                            <h4 class="icon_subtitle">Lorem ipsum dolor sit amet, consetetur sadipscing
+                                elitr, sed diam nonumy. Lorem ipsum dolor sit amet.</h4>
+                            </div>
+                        </div>
+                        <div class="icons_box">
+                            <img src="./img/credit_card_logo.svg" alt="" class="logos">
+                            <div class="icons_content">
+                            <h4 class="radio_title">Easy-to-pay</h4>
+                            <h4 class="icon_subtitle">Lorem ipsum dolor sit amet, consetetur sadipscing
+                                elitr, sed diam nonumy. Lorem ipsum dolor sit amet.</h4>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="dual_btn">
+                        <button class="btn btn_white" type="submit"> Back</button>
+                        <button class="btn btn_redd" type="submit"> Checkout</button>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer_top">
+            <div class="footer_top_one">
+                <img src="./img/footer_logo.svg" alt="" class="img-fluid mobile_none">
+                <img src="./img/footer_mobo_logo.svg" alt="" class="img-fluid desktop_none">
+                <img src="./img/masterCard.svg" alt="" class="img-fluid">
+            </div>
+            <div class="footer_top_two">
+                <div class="footer_top_two_top">
+                    <button class="btn footer_link">Our Services</button>
+                    <img src="./img/circle.svg" alt="" class="img-fluid mobile_none">
+                    <button class="btn footer_link">About us</button>
+                    <img src="./img/circle.svg" alt="" class="img-fluid mobile_none">
+                    <button class="btn footer_link">Join us</button>
+                    <img src="./img/circle.svg" alt="" class="img-fluid mobile_none">
+                    <button class="btn footer_link">FAQ's</button>
+                    <img src="./img/circle.svg" alt="" class="img-fluid mobile_none">
+                    <button class="btn footer_link">Support</button>
+                    <img src="./img/circle.svg" alt="" class="img-fluid mobile_none">
+                    <button class="btn footer_link">Terms & Conditions</button>
+                    <img src="./img/circle.svg" alt="" class="img-fluid mobile_none">
+                    <button class="btn footer_link">Privacy Policy</button>
+                </div>
+                <div class="dotted"></div>
+                <div class="footer_top_two_bottom">
+                    <button class="btn footer_link">Gangnam-gu, Seoul (postcode: 11111)</button>
+                    <img src="./img/circle.svg" alt="" class="img-fluid mobile_none">
+                    <button class="btn footer_link">support@Lingosphere.com</button>
+                    <img src="./img/circle.svg" alt="" class="img-fluid mobile_none">
+                    <button class="btn footer_link">319-00-0000</button>
+                </div>
+            </div>
+        </div>
+        <div class="footer_bottom">
+            <p class="footer_copyright">©Lingosphere. 2024 All right reserved.</p>
+        </div>
+    </footer>
+
+
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+    integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="./dist/js/owl.carousel.js"></script>
+<!-- <script src="./dist/js/bootstrap.min.js"></script>
+    <script src="./dist/js/bootstrap.bundle.min.js"></script> -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous">
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+    integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous">
+</script>
+
+<script>
+    $(document).ready(function () {
+        $(".hamburger_menu").click(function () {
+            $(".header_mobo_main_slide").fadeIn("slow");
+            $(".hamburger_menu").fadeOut("slow");
+            $(".hamburger_menu_close").fadeIn("slow");
+            $(".header_cart_mobo_main_slide").fadeOut("slow");
+        });
+        $(".hamburger_menu_close").click(function () {
+            $(".header_mobo_main_slide").fadeOut("slow");
+            $(".hamburger_menu").fadeIn("slow");
+            $(".hamburger_menu_close").fadeOut("slow");
+        });
+        $(".cart_menu").click(function () {
+            $(".header_cart_mobo_main_slide").fadeIn("slow");
+            $(".cart_menu").fadeOut("slow");
+            $(".cart_menu_close").fadeIn("slow");
+            $(".header_mobo_main_slide").fadeOut("slow");
+        });
+        $(".cart_menu_close").click(function () {
+            $(".header_cart_mobo_main_slide").fadeOut("slow");
+            $(".cart_menu").fadeIn("slow");
+            $(".cart_menu_close").fadeOut("slow");
+        });
+    });
+
+    function justDrop(droperId, roterId) {
+        const theId = document.getElementById(droperId);
+        const theId2 = document.getElementById(roterId);
+        if (theId.classList.contains('d-none')) {
+            theId.classList.remove('d-none');
+            theId2.style.rotate = '180deg';
+        } else {
+            theId.classList.add('d-none');
+            theId2.style.rotate = '0deg';
+        }
+    }
+
+    function counterMinus(indexPosition) {
+        const myId = 'cart_product_units' + indexPosition;
+        const inputElement = document.getElementById(myId);
+        let currentValue = parseInt(inputElement.value, 10);
+
+        if (isNaN(currentValue)) {
+            currentValue = 0;
+        }
+
+        if (currentValue > 1) {
+            const newValue = currentValue - 1;
+            inputElement.value = newValue;
+        } else {
+            inputElement.value = currentValue;
+        }
+    }
+
+
+    function counterPlus(indexPosition) {
+        const myId = 'cart_product_units' + indexPosition;
+        const inputElement = document.getElementById(myId);
+        let currentValue = parseInt(inputElement.value, 10);
+
+        if (isNaN(currentValue)) {
+            currentValue = 0;
+        }
+
+        if (currentValue < 10) {
+            const newValue = currentValue + 1;
+            inputElement.value = newValue;
+        } else {
+            inputElement.value = currentValue;
+        }
+    }
+</script>
+
+<script>
+    const radioButtons = document.querySelectorAll('.chek_inpoot');
+  
+    radioButtons.forEach((radioButton) => {
+      radioButton.addEventListener('click', (event) => {
+        const frm = event.target.closest('.frm');
+        frm.classList.add('active');
+        const siblings = frm.parentNode.children;
+        for (let i = 0; i < siblings.length; i++) {
+          if (siblings[i] !== frm) {
+            siblings[i].classList.remove('active');
+          }
+        }
+      });
+    });
+
+
+
+
+  function field_box_file() {
+    console.log('me');
+    document.getElementById('document').click();
+  }
+  $("#document").on("change", function(e){
+    document.getElementById('upload_placeholder').innerHTML = e.target.files[0].name;
+  })
+  </script>
+
+
+</html>
