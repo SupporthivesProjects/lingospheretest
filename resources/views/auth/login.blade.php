@@ -48,6 +48,12 @@
                         </span>
                     @endif
                 </div>
+                <div class="form-group">
+                    <input id="password_confirmation" type="password" class="form-control" name="password_confirmation" required placeholder="Confirm Password">
+                    <span id="password-mismatch" class="invalid-feedback" role="alert" style="display:none;">
+                        <strong>{{ __('Password and Confirm Password do not match') }}</strong>
+                    </span>
+                </div>
                 <div class="row">
                     <div class="col-sm-6">
                         <div class="checkbox pad-btm text-left">
@@ -97,5 +103,29 @@
             $('#email').val('admin@example.com');
             $('#password').val('123456');
         }
+
+        document.addEventListener('DOMContentLoaded', function () {
+            var loginForm = document.querySelector('form[action="{{ route('login') }}"]');
+            var password = document.getElementById('password');
+            var passwordConfirmation = document.getElementById('password_confirmation');
+            var mismatch = document.getElementById('password-mismatch');
+
+            if (loginForm && password && passwordConfirmation) {
+                loginForm.addEventListener('submit', function (e) {
+                    if (password.value !== passwordConfirmation.value) {
+                        e.preventDefault();
+                        passwordConfirmation.classList.add('is-invalid');
+                        if (mismatch) {
+                            mismatch.style.display = 'block';
+                        }
+                    } else {
+                        passwordConfirmation.classList.remove('is-invalid');
+                        if (mismatch) {
+                            mismatch.style.display = 'none';
+                        }
+                    }
+                });
+            }
+        });
     </script>
 @endsection
