@@ -64,6 +64,17 @@ NICE DREAM, 6th floor, Flat/Office 601 <br>
                                     Conditions</a> and <a href="{{ route('privacypolicy') }}">Privacy Policy.</a></p>
                         </div>
                     </div>
+                    <div class="c-checkbox">
+                        <div class="c-div">
+                            <label class="d-flex justify-content-center justify-content-lg-start">
+                                <input type="checkbox" id="newsletter" name="newsletter" form="contactform">
+                                <label for="newsletter"></label>
+                            </label>
+                        </div>
+                        <div class="c-text">
+                            <p class="login_strong">Subscribe to our newsletter to receive updates and offers.</p>
+                        </div>
+                    </div>
                     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
                         <div class="g-recaptcha mx-auto my_mob_24" data-sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI"  form="contactform" ></div>
                 </div>
