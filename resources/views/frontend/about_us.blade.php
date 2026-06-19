@@ -215,8 +215,8 @@
                             </div>
                         </div>
                         {{--<img src="./img/captcha.png" alt="" class="captcha">--}}
-                        <script src="https://js.hcaptcha.com/1/api.js" async defer></script>
-                        <div class="h-captcha mx-auto my_mob_24" data-sitekey="{{ env('H_CAPTCHA_SITE_KEY') }}"></div>
+                        <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+                        <div class="g-recaptcha mx-auto my_mob_24" data-sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI"></div>
                     </div>
                     {{--<a href="#" class="cont-btn btn">Submit Your message</a>--}}
                     <button type="submit" class="cont-btn btn" form="contactform">Submit Your message</button>

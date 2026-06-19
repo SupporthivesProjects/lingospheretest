@@ -508,8 +508,8 @@
                             and <a href="{{ route('termsandconditions') }}">Privacy Policy.</a></p>
                     </div>
                 </div>
-                <script src="https://js.hcaptcha.com/1/api.js" async defer></script>
-                        <div class="col h-captcha mx-auto my_mob_24" data-sitekey="{{ env('H_CAPTCHA_SITE_KEY') }}"></div>
+                <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+                        <div class="col g-recaptcha mx-auto my_mob_24" data-sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI"></div>
             </div>
             <button type="submit" class="cont-btn btn">Submit Your message</button>
         </div>

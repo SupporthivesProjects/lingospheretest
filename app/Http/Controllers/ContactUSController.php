@@ -55,12 +55,12 @@ class ContactUSController extends Controller
             ]);
         } 
         
-        $verifyURL = 'https://hcaptcha.com/siteverify'; 
-                
-                $token = $_POST['h-captcha-response'];
-                
-                $data = array( 
-                'secret' =>  env('H_CAPTCHA_SECRET_KEY'), 
+        $verifyURL = 'https://www.google.com/recaptcha/api/siteverify';
+
+                $token = $_POST['g-recaptcha-response'];
+
+                $data = array(
+                'secret' =>  '6LeIxAcTAAAAAGG-vFI1TnRWxMZNFuojJ4WifJWe',
                 'response' => $token, 
                 'remoteip' => $_SERVER['REMOTE_ADDR'] 
                 ); 

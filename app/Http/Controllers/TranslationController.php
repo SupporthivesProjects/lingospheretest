@@ -122,10 +122,10 @@ class TranslationController extends Controller
             'rate_per' => 'required',
         ]);
     
-        $verifyURL = 'https://hcaptcha.com/siteverify';
-        $token = $_POST['h-captcha-response'];
+        $verifyURL = 'https://www.google.com/recaptcha/api/siteverify';
+        $token = $_POST['g-recaptcha-response'];
         $data = [
-            'secret' => env('H_CAPTCHA_SECRET_KEY'),
+            'secret' => '6LeIxAcTAAAAAGG-vFI1TnRWxMZNFuojJ4WifJWe',
             'response' => $token,
             'remoteip' => $_SERVER['REMOTE_ADDR'],
         ];
