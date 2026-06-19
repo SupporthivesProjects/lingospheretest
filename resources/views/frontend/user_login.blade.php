@@ -86,9 +86,9 @@
 
                                     <div class="dual_btn align-items-center">
                                         <div>
-                                            <script src="https://js.hcaptcha.com/1/api.js" async defer></script>
-                                            <div class="h-captcha mx-auto my_mob_24"
-                                                data-sitekey="{{ env('H_CAPTCHA_SITE_KEY') }}" >
+                                            <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+                                            <div class="g-recaptcha mx-auto my_mob_24"
+                                                data-sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI" >
                                             </div>
                                         </div>
                                         <button

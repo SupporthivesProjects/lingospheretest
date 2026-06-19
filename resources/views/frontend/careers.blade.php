@@ -298,8 +298,8 @@
                                         Conditions</a> and <a href="{{ route('privacypolicy') }}">Privacy Policy.</a></p>
                             </div>
                         </div>
-                        <script src="https://js.hcaptcha.com/1/api.js" async defer></script>
-                        <div class="my-capcha h-captcha notrobot_1" data-sitekey="{{ env('H_CAPTCHA_SITE_KEY') }}"></div>
+                        <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+                        <div class="my-capcha g-recaptcha notrobot_1" data-sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI"></div>
                     </div>
                     {{-- <a href="#" class="cont-btn btn">Submit Your message</a> --}}
                     <button type="submit" class="cont-btn btn">Submit Your message</button>
